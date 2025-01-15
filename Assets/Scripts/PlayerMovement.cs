@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     float halfJumpSpeed;
     [SerializeField] int _jumpStrength = 2;
     bool isGrounded = false;
-   
+
     [SerializeField] Transform _groundChecker;
     [SerializeField] LayerMask groundLayer;
 
@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     CapsuleCollider2D capColl;
     CircleCollider2D cirColl;
-    
+
     float coyoteTime = 0.2f;
     float coyoteTimeCounter;
 
@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //if (canMove)
-        
+
         BasicMovement();
 
         Jump();
@@ -81,83 +81,80 @@ public class PlayerMovement : MonoBehaviour
         Slide();
 
         OutOfBounds();
-        
-    }
 
 
-    void BasicMovement()
-    {
-        if (Input.GetKey(KeyCode.RightArrow))
+        void BasicMovement()
         {
+            if (Input.GetKey(KeyCode.RightArrow))
             {
-                transform.Translate(Vector2.right * realMoveSpeed * Time.deltaTime);
+                {
+                    transform.Translate(Vector2.right * realMoveSpeed * Time.deltaTime);
+                }
+            }
+
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                {
+                    transform.Translate(Vector2.left * realMoveSpeed * Time.deltaTime);
+                }
             }
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        void Jump()
         {
+            if (isGrounded)
             {
-                transform.Translate(Vector2.left * realMoveSpeed * Time.deltaTime);
+                coyoteTimeCounter = coyoteTime;
             }
-        }
-    }
-
-
-    void Jump()
-    {
-        if (isGrounded)
-        {
-            coyoteTimeCounter = coyoteTime;
-        }
-        else
-        {
-            coyoteTimeCounter -= Time.deltaTime;
-        }
-
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            jumpBufferCounter = jumpBufferTime;
-        }
-        else
-        {
-            jumpBufferCounter -= Time.deltaTime;
-        }
-
-
-        if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
-        {
-
+            else
             {
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, _jumpStrength);
-
-                jumpBufferCounter = 0f;
-                    
+                coyoteTimeCounter -= Time.deltaTime;
             }
 
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                jumpBufferCounter = jumpBufferTime;
+            }
+            else
+            {
+                jumpBufferCounter -= Time.deltaTime;
+            }
+
+
+            if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
+            {
+
+                {
+                    rb.linearVelocity = new Vector2(rb.linearVelocityX, _jumpStrength);
+
+                    jumpBufferCounter = 0f;
+
+                }
+
+            }
+
+            if (Input.GetKeyUp(KeyCode.UpArrow) && rb.linearVelocityX > 0f)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, rb.linearVelocityY * 0.5f);
+
+                coyoteTimeCounter = 0f;
+            }
         }
 
-        if (Input.GetKeyUp(KeyCode.UpArrow) && rb.linearVelocityX > 0f)
+        void WallJump()
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocityX, rb.linearVelocityY * 0.5f);
+            if (isOnLeftWall && Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                rb.linearVelocity = new Vector2(-_jumpStrength / 2, _jumpStrength / 2);
+            }
 
-            coyoteTimeCounter = 0f;
-        }
-    }
-
-    void WallJump()
-    {
-        if (isOnLeftWall && Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            rb.linearVelocity = new Vector2(-_jumpStrength / 2, _jumpStrength / 2);
+            if (isOnRightWall && Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                rb.linearVelocity = new Vector2(_jumpStrength / 2, _jumpStrength / 2);
+            }
         }
 
-        if (isOnRightWall && Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            rb.linearVelocity = new Vector2(_jumpStrength / 2, _jumpStrength / 2);
-        }
-    }
-
-    void OutOfBounds()
+        void OutOfBounds()
         {
             if (transform.position.y < -5f)
             {
@@ -165,26 +162,28 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-    void Slide()
-    {
-        if (Input.GetKey(KeyCode.DownArrow))
+        void Slide()
         {
-            capColl.enabled = false;
-            cirColl.enabled = true;
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                capColl.enabled = false;
+                cirColl.enabled = true;
+            }
+
+            else
+            {
+                capColl.enabled = true;
+                cirColl.enabled = false;
+            }
         }
 
-        else
-        {
-            capColl.enabled = true;
-            cirColl.enabled = false;
-        }
+        //private void OnTriggerEnter(Collider other)
+        //{
+        //    if (other.tag == "Wall")
+        //    {
+        //        canMove = false;
+        //    }
+        //}
+
     }
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.tag == "Wall")
-    //    {
-    //        canMove = false;
-    //    }
-    //}
 }
