@@ -15,4 +15,19 @@ public class LaserDestroyer : MonoBehaviour
     {
        Destroy(gameObject, timeTilDestroy); 
     }
+
+        // This will handle the collision detection with the player
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Check if the player collided with the laser
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            // Call the GameManager to handle the player’s death
+            GameManager gameManager = FindObjectOfType<GameManager>(); // Find the GameManager in the scene
+            if (gameManager != null)
+            {
+                gameManager.PlayerDies(); // Trigger player death
+            }
+        }
+    }
 }
