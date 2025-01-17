@@ -1154,7 +1154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4fb9afb3c4bf74a82ca276010f83ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Hooks: []
   player: {fileID: 1006977116}
   isNearLedge: 0
 --- !u!1 &863655225
@@ -1336,7 +1335,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4fb9afb3c4bf74a82ca276010f83ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Hooks: []
   player: {fileID: 1006977116}
   isNearLedge: 0
 --- !u!1 &1006977116 stripped
@@ -1528,7 +1526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4fb9afb3c4bf74a82ca276010f83ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Hooks: []
   player: {fileID: 1006977116}
   isNearLedge: 0
 --- !u!1 &1174366065
@@ -1637,7 +1634,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 3
+  m_Radius: 2.5
 --- !u!114 &1188863118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1650,7 +1647,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4fb9afb3c4bf74a82ca276010f83ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Hooks: []
   player: {fileID: 1006977116}
   isNearLedge: 0
 --- !u!1 &1368827940
