@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     bool isOnLeftWall = false;
 
     Rigidbody2D rb;
+    public Animator animator;
 
     CapsuleCollider2D capColl;
     CircleCollider2D cirColl;
@@ -90,14 +91,19 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 {
-                    transform.Translate(Vector2.right * realMoveSpeed * Time.deltaTime);
+                    rb.linearVelocity = new Vector2(realMoveSpeed, rb.linearVelocityY);
                 }
             }
+
+            //if (Mathf.Abs (BasicMovement) > .1f)
+            //{
+            //    animator.SetFloat("Run, 1f");
+            //}
 
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 {
-                    transform.Translate(Vector2.left * realMoveSpeed * Time.deltaTime);
+                    rb.linearVelocity = new Vector2(-realMoveSpeed, rb.linearVelocityY);
                 }
             }
         }
