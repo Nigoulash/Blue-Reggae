@@ -60,8 +60,8 @@ public class PlayerMovement : MonoBehaviour
     {        
         isGrounded = Physics2D.OverlapCapsule(_groundChecker.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Horizontal, 0, groundLayer);
 
-        isOnRightWall = Physics2D.OverlapCapsule(_rightWallChecker.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Vertical, 0, wallLayer);
-        isOnLeftWall = Physics2D.OverlapCapsule(_leftWallChecker.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Vertical, 0, wallLayer);
+        isOnRightWall = Physics2D.OverlapCapsule(_rightWallChecker.position, new Vector2(1f, 2f), CapsuleDirection2D.Vertical, 0, wallLayer);
+        isOnLeftWall = Physics2D.OverlapCapsule(_leftWallChecker.position, new Vector2(1f, 2f), CapsuleDirection2D.Vertical, 0, wallLayer);
 
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -177,6 +177,13 @@ public class PlayerMovement : MonoBehaviour
 
         void WallJump()
         {
+            if (isOnLeftWall || isOnRightWall)
+            {
+                Debug.Log("On Wall");
+                rb.AddForce(new Vector2(0, -1) * 5f);
+            }
+
+
             if (isOnLeftWall && Input.GetKeyDown(KeyCode.UpArrow))
             {
                 rb.linearVelocity = new Vector2(-_jumpStrength / 2, _jumpStrength / 2);
