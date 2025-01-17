@@ -30,10 +30,8 @@ public class LedgeGrabber : MonoBehaviour
     {
         if (other.tag == "Hook")
         {
-            isNearLedge = true;
-            hookDestination = other.transform;
-            Debug.Log("Hook within reach");
-               
+                isNearLedge = true;
+                hookDestination = other.transform;
         }
     }
 }
