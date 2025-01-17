@@ -184,12 +184,9 @@ public class PlayerMovement : MonoBehaviour
             // Check if the player collided with the laser
             if (collision.gameObject.CompareTag("Laser"))
             {
-                // Call the GameManager to handle the player’s death
-                GameManager gameManager = FindObjectOfType<GameManager>(); // Find the GameManager in the scene
-                if (gameManager != null)
-                {
-                    gameManager.isDead = true; // Trigger player death
-                }
+
+                GameManager.isDead = true; // Trigger player death
+
                     
             }
         }
