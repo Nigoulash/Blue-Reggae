@@ -4,24 +4,22 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float _origMoveSpeed = 5.0f;
     float realMoveSpeed;
-    float halfMoveSpeed;
+    float doubleMoveSpeed;
     private float direction = 0f;
 
     [SerializeField] float _origJumpSpeed = 0.5f;
     float realJumpSpeed;
-    float halfJumpSpeed;
+    float doubleJumpSpeed;
     [SerializeField] int _jumpStrength = 2;
     bool isGrounded = false;
 
     [SerializeField] Transform _groundChecker;
     [SerializeField] LayerMask groundLayer;
 
-    [SerializeField] Transform _leftWallChecker;
-    [SerializeField] Transform _rightWallChecker;
+    [SerializeField] Transform _wallChecker;
     [SerializeField] LayerMask wallLayer;
 
-    bool isOnRightWall = false;
-    bool isOnLeftWall = false;
+    bool isOnWall = false;
 
     Rigidbody2D rb;
     SpriteRenderer sr;
@@ -31,14 +29,14 @@ public class PlayerMovement : MonoBehaviour
     CircleCollider2D cirColl;
 
     float coyoteTime = 0.2f;
-    public float coyoteTimeCounter;
+    float coyoteTimeCounter;
 
     float jumpBufferTime = 0.2f;
-    public float jumpBufferCounter;
+    float jumpBufferCounter;
 
     Vector2 startPosition;
 
-    public float speed;
+    float speed;
     //bool isJumping = false;
 
     //bool canMove;
@@ -60,17 +58,16 @@ public class PlayerMovement : MonoBehaviour
     {        
         isGrounded = Physics2D.OverlapCapsule(_groundChecker.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Horizontal, 0, groundLayer);
 
-        isOnRightWall = Physics2D.OverlapCapsule(_rightWallChecker.position, new Vector2(1f, 2f), CapsuleDirection2D.Vertical, 0, wallLayer);
-        isOnLeftWall = Physics2D.OverlapCapsule(_leftWallChecker.position, new Vector2(1f, 2f), CapsuleDirection2D.Vertical, 0, wallLayer);
+        isOnWall = Physics2D.OverlapCapsule(_wallChecker.position, new Vector2(1f, 2f), CapsuleDirection2D.Vertical, 0, wallLayer);
 
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            halfMoveSpeed = _origMoveSpeed / 2;
-            realMoveSpeed = halfMoveSpeed;
+            doubleMoveSpeed = _origMoveSpeed * 1.5f;
+            realMoveSpeed = doubleMoveSpeed;
 
-            halfJumpSpeed = _origJumpSpeed / 2;
-            realJumpSpeed = halfMoveSpeed;
+            doubleJumpSpeed = _origJumpSpeed * 1.5f;
+            realJumpSpeed = doubleMoveSpeed;
         }
 
         else
@@ -92,11 +89,14 @@ public class PlayerMovement : MonoBehaviour
 
         OutOfBounds();
 
+        //WallJump();
+
         void BasicMovement()
         {
 
             direction = Input.GetAxisRaw("Horizontal");
             rb.linearVelocity = new Vector2(direction * realMoveSpeed, rb.linearVelocityY);
+
             speed = System.Math.Abs(rb.linearVelocityX);
             animator.SetFloat("Run", speed);
             //if (speed > 0.1f)
@@ -177,19 +177,13 @@ public class PlayerMovement : MonoBehaviour
 
         void WallJump()
         {
-            if (isOnLeftWall || isOnRightWall)
+            if (isOnWall)
             {
                 Debug.Log("On Wall");
                 rb.AddForce(new Vector2(0, -1) * 5f);
             }
 
-
-            if (isOnLeftWall && Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                rb.linearVelocity = new Vector2(-_jumpStrength / 2, _jumpStrength / 2);
-            }
-
-            if (isOnRightWall && Input.GetKeyDown(KeyCode.UpArrow))
+            if (isOnWall && Input.GetKeyDown(KeyCode.UpArrow))
             {
                 rb.linearVelocity = new Vector2(_jumpStrength / 2, _jumpStrength / 2);
             }
@@ -223,10 +217,7 @@ public class PlayerMovement : MonoBehaviour
             // Check if the player collided with the laser
             if (collision.gameObject.CompareTag("Laser"))
             {
-
-                GameManager.isDead = true; // Trigger player death
-
-                    
+                GameManager.isDead = true; // Trigger player death  
             }
         }
 

@@ -969,7 +969,7 @@ Transform:
   m_GameObject: {fileID: 740350803}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.86, y: 0, z: 0}
   m_LocalScale: {x: 7.7824574, y: 0.92383, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1159,6 +1159,11 @@ MonoBehaviour:
 --- !u!1 &806419704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5382431802089239285, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
+  m_PrefabInstance: {fileID: 7661728296276319739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &806419705 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 214073557985981672, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
   m_PrefabInstance: {fileID: 7661728296276319739}
   m_PrefabAsset: {fileID: 0}
 --- !u!70 &806419706
@@ -1853,48 +1858,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1174366066}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1546728928 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3441752595284183454, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
-  m_PrefabInstance: {fileID: 7661728296276319739}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1546728930
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546728928}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
-  m_Direction: 0
 --- !u!1 &1892625823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,7 +2231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 214073557985981672, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9
+      value: 0.63
       objectReference: {fileID: 0}
     - target: {fileID: 2450273991409723211, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_Enabled
@@ -2282,6 +2245,14 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5382431802089239285, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
+      propertyPath: m_Name
+      value: WallChecker
+      objectReference: {fileID: 0}
+    - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
+      propertyPath: _wallChecker
+      value: 
+      objectReference: {fileID: 806419705}
     - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: _jumpStrength
       value: 10
@@ -2371,7 +2342,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3441752595284183454, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       insertIndex: -1
@@ -2380,9 +2352,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5382431802089239285, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 806419706}
-    - targetCorrespondingSourceObject: {fileID: 3441752595284183454, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1546728930}
   m_SourcePrefab: {fileID: 100100000, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
