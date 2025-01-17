@@ -35,11 +35,6 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 startPosition;
 
-    // ANIMATION
-    enum PlayerState { Idle, Running, Airborne }
-
-    PlayerState state;
-
     //bool canMove;
 
 
@@ -55,9 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        UpdateState();
-        
+    {        
         isGrounded = Physics2D.OverlapCapsule(_groundChecker.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Horizontal, 0, groundLayer);
 
         isOnRightWall = Physics2D.OverlapCapsule(_rightWallChecker.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Vertical, 0, wallLayer);
@@ -195,8 +188,9 @@ public class PlayerMovement : MonoBehaviour
                 GameManager gameManager = FindObjectOfType<GameManager>(); // Find the GameManager in the scene
                 if (gameManager != null)
                 {
-                    gameManager.PlayerDies(); // Trigger player death
+                    gameManager.isDead = true; // Trigger player death
                 }
+                    
             }
         }
 
