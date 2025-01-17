@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Boundary
   - Wall
+  - Laser
   layers:
   - Default
   - TransparentFX
@@ -44,8 +45,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 3
+  - name: Colliders
     uniqueID: 699267923
+    locked: 0
+  - name: Backdrop
+    uniqueID: 181665991
     locked: 0
   - name: Level
     uniqueID: 2628150791
