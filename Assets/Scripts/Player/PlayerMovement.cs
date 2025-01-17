@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float _origMoveSpeed = 5.0f;
     float realMoveSpeed;
     float halfMoveSpeed;
+    private float direction = 0f;
 
     [SerializeField] float _origJumpSpeed = 0.5f;
     float realJumpSpeed;
@@ -23,18 +24,22 @@ public class PlayerMovement : MonoBehaviour
     bool isOnLeftWall = false;
 
     Rigidbody2D rb;
+    SpriteRenderer sr;
     public Animator animator;
 
     CapsuleCollider2D capColl;
     CircleCollider2D cirColl;
 
     float coyoteTime = 0.2f;
-    float coyoteTimeCounter;
+    public float coyoteTimeCounter;
 
     float jumpBufferTime = 0.2f;
-    float jumpBufferCounter;
+    public float jumpBufferCounter;
 
     Vector2 startPosition;
+
+    public float speed;
+    //bool isJumping = false;
 
     //bool canMove;
 
@@ -44,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         capColl = GetComponent<CapsuleCollider2D>();
         cirColl = GetComponent<CircleCollider2D>();
         startPosition = this.transform.position;
@@ -73,9 +79,10 @@ public class PlayerMovement : MonoBehaviour
             realJumpSpeed = _origJumpSpeed;
         }
 
-        
 
         //if (canMove)
+
+        Flip();
 
         BasicMovement();
 
@@ -85,27 +92,25 @@ public class PlayerMovement : MonoBehaviour
 
         OutOfBounds();
 
-
         void BasicMovement()
         {
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                {
-                    rb.linearVelocity = new Vector2(realMoveSpeed, rb.linearVelocityY);
-                }
-            }
 
-            //if (Mathf.Abs (BasicMovement) > .1f)
+            direction = Input.GetAxisRaw("Horizontal");
+            rb.linearVelocity = new Vector2(direction * realMoveSpeed, rb.linearVelocityY);
+            speed = System.Math.Abs(rb.linearVelocityX);
+            animator.SetFloat("Run", speed);
+            //if (speed > 0.1f)
+
             //{
-            //    animator.SetFloat("Run, 1f");
+            //    animator.SetFloat("Run", speed);
             //}
 
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                {
-                    rb.linearVelocity = new Vector2(-realMoveSpeed, rb.linearVelocityY);
-                }
-            }
+            //if (speed < 0.1f)
+            //{
+            //    animator.SetFloat("Run", speed);
+            //}
+
+
         }
 
         void Jump()
@@ -113,6 +118,7 @@ public class PlayerMovement : MonoBehaviour
             if (isGrounded)
             {
                 coyoteTimeCounter = coyoteTime;
+                animator.SetBool("OnGround", true);
             }
             else
             {
@@ -138,8 +144,28 @@ public class PlayerMovement : MonoBehaviour
                     jumpBufferCounter = 0f;
 
                 }
-
             }
+
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                animator.SetBool("Jump", true);
+            }
+
+            else 
+            {
+                animator.SetBool("Jump", false);
+            }
+
+            if (isGrounded)
+            {
+                animator.SetBool("OnGround", true);
+            }
+
+            else
+            {
+                animator.SetBool("OnGround", false);
+            }
+
 
             if (Input.GetKeyUp(KeyCode.UpArrow) && rb.linearVelocityX > 0f)
             {
@@ -197,6 +223,19 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        void Flip()
+        {
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                sr.flipX = true;
+            }
+
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                sr.flipX = false;
+            }
+        }
+
         //private void OnTriggerEnter(Collider other)
         //{
         //    if (other.tag == "Wall")
@@ -204,6 +243,5 @@ public class PlayerMovement : MonoBehaviour
         //        canMove = false;
         //    }
         //}
-
     }
 }
