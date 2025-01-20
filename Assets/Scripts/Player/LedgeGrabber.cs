@@ -21,12 +21,12 @@ public class LedgeGrabber : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.G))
             {
-                if (hookDestination.position.y > player.transform.position.y)
+                if (hookDestination.position.y > player.transform.position.y - 2)
                 {
-                    player.transform.position = new Vector2(hookDestination.position.x - 1, hookDestination.position.y + 2);
+                    player.transform.position = new Vector2(hookDestination.position.x - 1, hookDestination.position.y + 3);
                 }
 
-                if (hookDestination.position.y < player.transform.position.y)
+                if (hookDestination.position.y < player.transform.position.y - 2)
                 {
                     player.transform.position = new Vector2(hookDestination.position.x - 1, hookDestination.position.y - 2);
                 }
