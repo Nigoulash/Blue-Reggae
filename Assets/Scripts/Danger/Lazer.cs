@@ -21,6 +21,7 @@ public class Lazer : MonoBehaviour
             Instantiate(lazer, whereToSpawn.position, whereToSpawn.rotation);
 
             timeTilSpawn = startTimeTilSpawn;
+            Debug.Log("Laser");
             
         }
         else
