@@ -37,6 +37,11 @@ public class PlayerMovement : MonoBehaviour
     Vector2 startPosition;
 
     float speed;
+
+    float grav = 1.2f;
+
+    //float flipX;
+
     //bool isJumping = false;
 
     //bool canMove;
@@ -55,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {        
+    {
         isGrounded = Physics2D.OverlapCapsule(_groundChecker.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Horizontal, 0, groundLayer);
 
         isOnWall = Physics2D.OverlapCapsule(_wallChecker.position, new Vector2(1f, 2f), CapsuleDirection2D.Vertical, 0, wallLayer);
@@ -76,6 +81,16 @@ public class PlayerMovement : MonoBehaviour
             realJumpSpeed = _origJumpSpeed;
         }
 
+        if (rb.linearVelocityY < 0)
+        {
+            grav = 1.2f;
+            rb.gravityScale = grav * 1.5f;
+        }
+        else
+        {
+            rb.gravityScale = grav;
+        }
+
 
         //if (canMove)
 
@@ -89,157 +104,164 @@ public class PlayerMovement : MonoBehaviour
 
         OutOfBounds();
 
-        //WallJump();
-
-        void BasicMovement()
-        {
-
-            direction = Input.GetAxisRaw("Horizontal");
-            rb.linearVelocity = new Vector2(direction * realMoveSpeed, rb.linearVelocityY);
-
-            speed = System.Math.Abs(rb.linearVelocityX);
-            animator.SetFloat("Run", speed);
-            //if (speed > 0.1f)
-
-            //{
-            //    animator.SetFloat("Run", speed);
-            //}
-
-            //if (speed < 0.1f)
-            //{
-            //    animator.SetFloat("Run", speed);
-            //}
-
-
-        }
-
-        void Jump()
-        {
-            if (isGrounded)
-            {
-                coyoteTimeCounter = coyoteTime;
-                animator.SetBool("OnGround", true);
-            }
-            else
-            {
-                coyoteTimeCounter -= Time.deltaTime;
-            }
-
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                jumpBufferCounter = jumpBufferTime;
-            }
-            else
-            {
-                jumpBufferCounter -= Time.deltaTime;
-            }
-
-
-            if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
-            {
-
-                {
-                    rb.linearVelocity = new Vector2(rb.linearVelocityX, _jumpStrength);
-
-                    jumpBufferCounter = 0f;
-
-                }
-            }
-
-            if (animator.GetBool("OnGround") && Input.GetKey(KeyCode.UpArrow))
-            {
-                animator.SetBool("Jump", true);
-            }
-
-            else 
-            {
-                animator.SetBool("Jump", false);
-            }
-
-            if (isGrounded)
-            {
-                animator.SetBool("OnGround", true);
-            }
-
-            else
-            {
-                animator.SetBool("OnGround", false);
-            }
-
-
-            if (Input.GetKeyUp(KeyCode.UpArrow) && rb.linearVelocityX > 0f)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, rb.linearVelocityY * 0.5f);
-
-                coyoteTimeCounter = 0f;
-            }
-        }
-
-        void WallJump()
-        {
-            if (isOnWall)
-            {
-                Debug.Log("On Wall");
-                rb.AddForce(new Vector2(0, -1) * 5f);
-            }
-
-            if (isOnWall && Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                rb.linearVelocity = new Vector2(_jumpStrength / 2, _jumpStrength / 2);
-            }
-        }
-
-        void OutOfBounds()
-        {
-            if (transform.position.y < -5f)
-            {
-                transform.position = startPosition;
-            }
-        }
-
-        void Slide()
-        {
-            if (Input.GetKey(KeyCode.DownArrow))
-            {
-                capColl.enabled = false;
-                cirColl.enabled = true;
-            }
-
-            else
-            {
-                capColl.enabled = true;
-                cirColl.enabled = false;
-            }
-        }
-
-        void OnCollisionEnter(Collision collision)
-        {
-            // Check if the player collided with the laser
-            if (collision.gameObject.CompareTag("Laser"))
-            {
-                GameManager.isDead = true; // Trigger player death  
-            }
-        }
-
-        void Flip()
-        {
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
-            {
-                sr.flipX = true;
-            }
-
-            if (Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                sr.flipX = false;
-            }
-        }
-
-        //private void OnTriggerEnter(Collider other)
-        //{
-        //    if (other.tag == "Wall")
-        //    {
-        //        canMove = false;
-        //    }
-        //}
+        WallJump();
     }
+
+    void BasicMovement()
+    {
+
+        direction = Input.GetAxisRaw("Horizontal");
+        rb.linearVelocity = new Vector2(direction * realMoveSpeed, rb.linearVelocityY);
+
+        speed = System.Math.Abs(rb.linearVelocityX);
+        animator.SetFloat("Run", speed);
+        //if (speed > 0.1f)
+
+        //{
+        //    animator.SetFloat("Run", speed);
+        //}
+
+        //if (speed < 0.1f)
+        //{
+        //    animator.SetFloat("Run", speed);
+        //}
+
+
+    }
+
+    void Jump()
+    {
+        if (isGrounded)
+        {
+            coyoteTimeCounter = coyoteTime;
+            animator.SetBool("OnGround", true);
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow) && grav > 0.6f)
+        {
+            grav -= Time.deltaTime;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
+
+
+        if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
+        {
+
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, _jumpStrength);
+
+                jumpBufferCounter = 0f;
+
+            }
+        }
+
+        if (animator.GetBool("OnGround") && Input.GetKey(KeyCode.UpArrow))
+        {
+            animator.SetBool("Jump", true);
+        }
+
+        else 
+        {
+            animator.SetBool("Jump", false);
+        }
+
+        if (isGrounded)
+        {
+            animator.SetBool("OnGround", true);
+        }
+
+        else
+        {
+            animator.SetBool("OnGround", false);
+        }
+
+
+        if (Input.GetKeyUp(KeyCode.UpArrow) && rb.linearVelocityX > 0f)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, rb.linearVelocityY * 0.5f);
+
+            coyoteTimeCounter = 0f;
+        }
+    }
+
+    void WallJump()
+    {
+        if (isOnWall)
+        {
+            Debug.Log("On Wall");
+            rb.linearVelocity = new Vector2(0, -1);
+        }
+
+        if (isOnWall && Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            rb.linearVelocity = new Vector2(_jumpStrength / 2, _jumpStrength / 2);
+        }
+    }
+
+    void OutOfBounds()
+    {
+        if (transform.position.y < -5f)
+        {
+            transform.position = startPosition;
+        }
+    }
+
+    void Slide()
+    {
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            capColl.enabled = false;
+            cirColl.enabled = true;
+        }
+
+        else
+        {
+            capColl.enabled = true;
+            cirColl.enabled = false;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        // Check if the player collided with the laser
+        if (collision.gameObject.CompareTag("Laser"))
+        {
+            GameManager.isDead = true; // Trigger player death  
+        }
+    }
+
+    void Flip()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "Wall")
+    //    {
+    //        canMove = false;
+    //    }
+    //}
+    
 }

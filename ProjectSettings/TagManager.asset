@@ -8,6 +8,7 @@ TagManager:
   - Boundary
   - Wall
   - Laser
+  - Hook
   layers:
   - Default
   - TransparentFX
