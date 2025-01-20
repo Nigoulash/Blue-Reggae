@@ -19,21 +19,33 @@ public class LedgeGrabber : MonoBehaviour
 
         if (isNearLedge)
         {
-            if (Input.GetKeyDown(KeyCode.H))
+            if (Input.GetKeyDown(KeyCode.G))
             {
-                player.transform.position = hookDestination.position;
+                if (hookDestination.position.y > player.transform.position.y)
+                {
+                    player.transform.position = new Vector2(hookDestination.position.x - 1, hookDestination.position.y + 2);
+                }
+
+                if (hookDestination.position.y < player.transform.position.y)
+                {
+                    player.transform.position = new Vector2(hookDestination.position.x - 1, hookDestination.position.y - 2);
+                }
             }
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
-        if (other.tag == "Hook")
+        if (other.gameObject.CompareTag("Hook"))
         {
             isNearLedge = true;
             hookDestination = other.transform;
-            Debug.Log("Hook within reach");
-               
+
+        }
+
+        else
+        {
+            isNearLedge = false;
         }
     }
 }
