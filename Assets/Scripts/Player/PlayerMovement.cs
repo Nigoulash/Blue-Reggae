@@ -146,7 +146,7 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-            if (Input.GetKey(KeyCode.UpArrow))
+            if (animator.GetBool("OnGround") && Input.GetKey(KeyCode.UpArrow))
             {
                 animator.SetBool("Jump", true);
             }
