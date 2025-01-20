@@ -19,11 +19,11 @@ public class LedgeGrabber : MonoBehaviour
         if (other.gameObject.CompareTag("Hook"))
         {
             GameManager.isNearLedge = true;
-            Debug.Log("hook detected");
             if (Input.GetKey(KeyCode.G))
             {
                 GameManager.grabbingLedge = true;
                 GameManager.hookDestination = other.transform.position;
+                Debug.Log(GameManager.hookDestination);
             }
             else
             {

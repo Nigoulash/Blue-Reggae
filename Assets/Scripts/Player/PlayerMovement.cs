@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float _origJumpSpeed = 0.5f;
     float realJumpSpeed;
     float doubleJumpSpeed;
+
+    public float longJump = 0f;
     [SerializeField] int _jumpStrength = 2;
     bool isGrounded = false;
 
@@ -27,6 +29,10 @@ public class PlayerMovement : MonoBehaviour
 
     CapsuleCollider2D capColl;
     CircleCollider2D cirColl;
+
+    [SerializeField] GameObject _grabChild;
+    [SerializeField] LayerMask hookLayer;
+    bool isGrabbing = false;
 
     float coyoteTime = 0.2f;
     float coyoteTimeCounter;
@@ -85,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (rb.linearVelocityY < 0)
         {
+            longJump = 0f;
             grav = 1.2f;
             rb.gravityScale = grav * 1.5f;
         }
@@ -111,6 +118,8 @@ public class PlayerMovement : MonoBehaviour
         GrabLedge();
 
         JumpAnimator();
+
+        ClimbUp();
     }
 
     void BasicMovement()
@@ -146,9 +155,9 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.UpArrow) && grav > 0.6f)
+        if (Input.GetKey(KeyCode.UpArrow) && longJump < 4f && !isOnWall)
         {
-            grav -= Time.deltaTime;
+            longJump += (Time.deltaTime * 4);
         }
 
 
@@ -166,7 +175,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             {
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, _jumpStrength);
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, _jumpStrength + longJump);
 
                 jumpBufferCounter = 0f;
 
@@ -185,15 +194,11 @@ public class PlayerMovement : MonoBehaviour
     void JumpAnimator() 
     { 
 
-        if (animator.GetBool("OnGround") && Input.GetKeyDown(KeyCode.UpArrow))
+        if (animator.GetBool("OnGround") && Input.GetKey(KeyCode.UpArrow))
         {
             animator.SetBool("Jump", true);
         }
 
-        else 
-        {
-            animator.SetBool("Jump", false);
-        }
 
         if (isGrounded)
         {
@@ -204,6 +209,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("OnGround", false);
         }
+
     }
 
     void WallJump()
@@ -250,7 +256,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        else
+        if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             capColl.enabled = true;
             cirColl.enabled = false;
@@ -282,16 +288,39 @@ public class PlayerMovement : MonoBehaviour
 
     void GrabLedge()
     {
-        if (GameManager.isNearLedge && GameManager.grabbingLedge)
+        if (GameManager.isNearLedge && GameManager.grabbingLedge && transform.position.x < GameManager.hookDestination.x)
         {
-            rb.mass = 1f;
-            rb.AddForce(GameManager.hookDestination, ForceMode2D.Force);
-            Debug.Log("moving towards ledge");
+            transform.position = Vector2.MoveTowards(transform.position, GameManager.hookDestination, 0.4f);
+            animator.SetBool("Hang", true);
+            isGrabbing = Physics2D.OverlapCircle(transform.position, 0.5f, hookLayer);
         }
+    }
 
-        else
+    void ClimbUp()
+    {
+        if (isGrabbing)
         {
-            rb.mass = 0f;
+            rb.linearVelocity = Vector2.zero;
+            grav = 0f;
+
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                animator.SetBool("Hang", false);
+                animator.SetBool("Climb", true);
+                Vector2 targetPosition = new Vector2(transform.position.x + (6 * flipped), transform.position.y + 7);
+                transform.position = Vector2.MoveTowards(transform.position, targetPosition, 1f);
+                isGrabbing = false;
+                grav = 1.2f;
+                animator.SetBool("Climb", false);
+            }
+
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                animator.SetBool("Hang", false);
+                isGrabbing = false;
+                grav = 1.2f;
+            }
+
         }
     }
 
