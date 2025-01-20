@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 23f35d24b0fd00a4fa980c46a917cc0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1669715657188701422
+    second: Tjuv_slide_on_ground_0
+  - first:
+      213: -413526968424277857
+    second: Tjuv_slide_on_ground_1
+  - first:
+      213: -1050753254910901119
+    second: Tjuv_slide_on_ground_2
+  - first:
+      213: -9080741967146138801
+    second: Tjuv_slide_on_ground_3
+  - first:
+      213: 5586758287712621645
+    second: Tjuv_slide_on_ground_4
+  - first:
+      213: -6787269246430906951
+    second: Tjuv_slide_on_ground_5
+  - first:
+      213: 4073757807961508024
+    second: Tjuv_slide_on_ground_6
+  - first:
+      213: 2042243046580702623
+    second: Tjuv_slide_on_ground_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slide_on_ground_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 58
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5136228, y: 0.5587695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b0c51d47af3d8e0800000000000000
+      internalID: -1669715657188701422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_on_ground_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 8
+        width: 125
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5063211, y: 0.6269842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98d606c96bd24af0800000000000000
+      internalID: -413526968424277857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_on_ground_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 4
+        width: 125
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5189629, y: 0.6380799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18443765b79fa61f0800000000000000
+      internalID: -1050753254910901119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_on_ground_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 119
+        height: 94
+      alignment: 9
+      pivot: {x: 0.48672074, y: 0.69332814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43c54fea49baf180800000000000000
+      internalID: -9080741967146138801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_on_ground_4
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 124
+        height: 71
+      alignment: 9
+      pivot: {x: 0.48725596, y: 0.92971635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4494111017288d40800000000000000
+      internalID: 5586758287712621645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_on_ground_5
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 124
+        height: 73
+      alignment: 9
+      pivot: {x: 0.49362823, y: 0.9158545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b57d83b496cec1a0800000000000000
+      internalID: -6787269246430906951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_on_ground_6
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 112
+        height: 77
+      alignment: 9
+      pivot: {x: 0.44356266, y: 0.8796698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b805848425e88830800000000000000
+      internalID: 4073757807961508024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_on_ground_7
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 0
+        width: 74
+        height: 98
+      alignment: 9
+      pivot: {x: 0.43593618, y: 0.63706225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d44780b31875c10800000000000000
+      internalID: 2042243046580702623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f19dffbc4705be84ebfdfabf74337144
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slide_on_ground_0: -1669715657188701422
+      Slide_on_ground_1: -413526968424277857
+      Slide_on_ground_2: -1050753254910901119
+      Slide_on_ground_3: -9080741967146138801
+      Slide_on_ground_4: 5586758287712621645
+      Slide_on_ground_5: -6787269246430906951
+      Slide_on_ground_6: 4073757807961508024
+      Slide_on_ground_7: 2042243046580702623
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
