@@ -94,6 +94,7 @@ public class PlayerMovement : MonoBehaviour
             longJump = 0f;
             grav = 1.2f;
             rb.gravityScale = grav * 1.5f;
+            animator.SetBool("Jump", false);
         }
         else
         {
