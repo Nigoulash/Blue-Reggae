@@ -20,7 +20,7 @@ public class KillPlayer : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            player.transform.position = respawnPoint.position;
+            other.transform.position = respawnPoint.position;
             Debug.Log("Dead");
         }
     }
