@@ -1,3 +1,5 @@
+using System.Collections;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -29,10 +31,12 @@ public class PlayerMovement : MonoBehaviour
 
     CapsuleCollider2D capColl;
     CircleCollider2D cirColl;
+    BoxCollider2D boxColl;
 
     [SerializeField] GameObject _grabChild;
     [SerializeField] LayerMask hookLayer;
     bool isGrabbing = false;
+    bool isSliding = false;
 
     float coyoteTime = 0.2f;
     float coyoteTimeCounter;
@@ -44,7 +48,10 @@ public class PlayerMovement : MonoBehaviour
 
     float grav = 1.2f;
 
-    int flipped = 1;
+    float flipped = 1.5f;
+
+    DistanceJoint2D dj;
+
 
     //float flipX;
 
@@ -61,13 +68,16 @@ public class PlayerMovement : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         capColl = GetComponent<CapsuleCollider2D>();
         cirColl = GetComponent<CircleCollider2D>();
+        boxColl = GetComponent<BoxCollider2D>();
+
         GameManager.startPosition = this.transform.position;
+        dj = GetComponent<DistanceJoint2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.localScale = new Vector3(flipped, 1, 1);
+        transform.localScale = new Vector3(flipped, 1.5f, 1.5f);
 
         isGrounded = Physics2D.OverlapCapsule(_groundChecker.transform.position, new Vector2(1f, 0.2f), CapsuleDirection2D.Horizontal, 0, groundLayer);
 
@@ -192,8 +202,8 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    void JumpAnimator() 
-    { 
+    void JumpAnimator()
+    {
 
         if (animator.GetBool("OnGround") && Input.GetKey(KeyCode.UpArrow))
         {
@@ -229,7 +239,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isOnWall && Input.GetKey(KeyCode.UpArrow) && (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)))
         {
-            rb.linearVelocity = new Vector2(_jumpStrength * -flipped, _jumpStrength);
+            rb.linearVelocity = new Vector2(_jumpStrength * (-flipped / Mathf.Abs(flipped)), _jumpStrength);
 
         }
     }
@@ -257,7 +267,7 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 animator.SetBool("Slide", true);
-                rb.linearVelocityX = 10f * flipped;
+                rb.linearVelocityX = 10f * (flipped / Mathf.Abs(flipped));
             }
         }
 
@@ -282,22 +292,40 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            flipped = -1;
+            flipped = -1.5f;
         }
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            flipped = 1;
+            flipped = 1.5f;
         }
     }
 
     void GrabLedge()
     {
-        if (GameManager.isNearLedge && GameManager.grabbingLedge && transform.position.x < GameManager.hookDestination.x)
+        if (GameManager.isNearLedge && GameManager.grabbingLedge)
         {
-            transform.position = Vector2.MoveTowards(transform.position, GameManager.hookDestination, 0.4f);
-            animator.SetBool("Hang", true);
-            isGrabbing = Physics2D.OverlapCircle(transform.position, 0.5f, hookLayer);
+            GameObject hookObject = GameObject.Find(GameManager.hook);
+
+
+            if (hookObject.transform.position.y > 2f)
+            {
+                dj.connectedBody = hookObject.GetComponent<Rigidbody2D>();
+                dj.enabled = true;
+                dj.distance = 1f;
+                animator.SetBool("Hang", true);
+                isGrabbing = true;
+            }
+
+            if (hookObject.transform.position.y < 2f)
+            {
+                capColl.enabled = false;
+                cirColl.enabled = false;
+                boxColl.enabled = true;
+                animator.SetBool("Slide", true);
+                rb.linearVelocityX = 15f * (flipped / Mathf.Abs(flipped));
+                StartCoroutine("SlideUnder");
+            }
         }
     }
 
@@ -306,27 +334,34 @@ public class PlayerMovement : MonoBehaviour
         if (isGrabbing)
         {
             rb.linearVelocity = Vector2.zero;
-            grav = 0f;
 
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 animator.SetBool("Hang", false);
                 animator.SetBool("Climb", true);
-                Vector2 targetPosition = new Vector2(transform.position.x + (6 * flipped), transform.position.y + 7);
+                dj.enabled = false;
+                Vector2 targetPosition = new Vector2(transform.position.x + (6 * flipped / Mathf.Abs(flipped)), transform.position.y + 15);
                 transform.position = Vector2.MoveTowards(transform.position, targetPosition, 1f);
                 isGrabbing = false;
-                grav = 1.2f;
-                animator.SetBool("Climb", false);
             }
 
             if (Input.GetKeyDown(KeyCode.DownArrow))
             {
                 animator.SetBool("Hang", false);
                 isGrabbing = false;
-                grav = 1.2f;
+                dj.enabled = false;
             }
 
         }
+    }
+
+    IEnumerator SlideUnder()
+    {
+        yield return new WaitForSeconds(1);
+        animator.SetBool("Slide", false);
+        capColl.enabled = true;
+        boxColl.enabled = false;
+
     }
 
     //private void OnTriggerEnter(Collider other)
