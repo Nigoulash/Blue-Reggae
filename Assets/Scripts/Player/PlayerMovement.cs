@@ -198,6 +198,10 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("Jump", true);
         }
+        else
+        {
+            animator.SetBool("Jump", false);
+        }
 
 
         if (isGrounded)
