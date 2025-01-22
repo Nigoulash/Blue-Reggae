@@ -267,11 +267,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Slide()
     {
-        if (Input.GetKey(KeyCode.DownArrow) && !GameManager.grabbingSlider)
+        if (Input.GetKey(KeyCode.DownArrow))
         {
-            capColl.enabled = false;
-            cirColl.enabled = true;
-            isOnWall = false;
+            if (!GameManager.isNearSlider)
+            {
+                capColl.enabled = false;
+                cirColl.enabled = true;
+                isOnWall = false;
+            }
 
             if (!isGrounded)
             {

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977431168675150811}
   - component: {fileID: 4383650964963287190}
+  - component: {fileID: 6971488139019347690}
   - component: {fileID: 3131577234693741169}
   m_Layer: 0
   m_Name: HookDetector
@@ -43,6 +44,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb4fb9afb3c4bf74a82ca276010f83ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6971488139019347690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458886327696487372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1819552ac646cb840b50a5ceb7ec20bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!70 &3131577234693741169
