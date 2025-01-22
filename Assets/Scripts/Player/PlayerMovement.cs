@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     float speed;
 
-    float grav = 1.2f;
+    float grav = 3f;
 
     float flipped = 1.5f;
 
@@ -104,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
         if (rb.linearVelocityY < 0)
         {
             longJump = 0f;
-            grav = 1.2f;
+            grav = 3f;
             rb.gravityScale = grav * 1.7f;
             animator.SetBool("Fall", true);
         }
@@ -112,6 +112,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.gravityScale = grav;
             animator.SetBool("Fall", false);
+        }
+
+        if (rb.linearVelocityY == 0)
+        {
+            animator.SetBool("Jump", false);
         }
 
 
@@ -213,14 +218,14 @@ public class PlayerMovement : MonoBehaviour
     void JumpAnimator()
     {
 
-        if (animator.GetBool("OnGround") && Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             animator.SetBool("Jump", true);
         }
-        else
-        {
-            animator.SetBool("Jump", false);
-        }
+        //else
+        //{
+        //    animator.SetBool("Jump", false);
+        //}
 
 
         if (isGrounded)
@@ -339,7 +344,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("Hang", false);
                 animator.SetBool("Climb", true);
                 dj.enabled = false;
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, 13f);
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, 20f);
                 isGrabbing = false;
             }
 
@@ -364,7 +369,7 @@ public class PlayerMovement : MonoBehaviour
                 capColl.enabled = false;
                 cirColl.enabled = false;
                 boxColl.enabled = true;
-                animator.SetBool("Slide", true);
+                animator.SetBool("Super", true);
                 rb.linearVelocityX = 15f * (flipped / Mathf.Abs(flipped));
                 StartCoroutine("SlideUnder");
             }
@@ -375,7 +380,7 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator SlideUnder()
     {
         yield return new WaitForSeconds(1);
-        animator.SetBool("Slide", false);
+        animator.SetBool("Super", false);
         capColl.enabled = true;
         boxColl.enabled = false;
 

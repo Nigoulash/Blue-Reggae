@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slide
+  m_Name: SuperSlide
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -28,6 +28,8 @@ AnimationClip:
       value: {fileID: -1050753254910901119, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
     - time: 0.15
       value: {fileID: -9080741967146138801, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
+    - time: 0.2
+      value: {fileID: 5586758287712621645, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
     - time: 0.33333334
       value: {fileID: 4073757807961508024, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
     - time: 0.38333333
@@ -58,6 +60,7 @@ AnimationClip:
     - {fileID: -413526968424277857, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
     - {fileID: -1050753254910901119, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
     - {fileID: -9080741967146138801, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
+    - {fileID: 5586758287712621645, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
     - {fileID: 4073757807961508024, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
     - {fileID: 2042243046580702623, guid: 23f35d24b0fd00a4fa980c46a917cc0e, type: 3}
   m_AnimationClipSettings:
