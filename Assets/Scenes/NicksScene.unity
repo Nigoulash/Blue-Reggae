@@ -578,6 +578,11 @@ Transform:
   - {fileID: 867396755}
   m_Father: {fileID: 1174366066}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &236927738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 458886327696487372, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
+  m_PrefabInstance: {fileID: 2773418644160189913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,7 +1626,7 @@ GameObject:
   - component: {fileID: 1066779710}
   m_Layer: 7
   m_Name: Triangle (1)
-  m_TagString: Hook
+  m_TagString: Slider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1859,6 +1864,18 @@ Transform:
   - {fileID: 741541322}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1188863119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236927738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1819552ac646cb840b50a5ceb7ec20bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1368827940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,7 +2686,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 458886327696487372, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1188863119}
   m_SourcePrefab: {fileID: 100100000, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

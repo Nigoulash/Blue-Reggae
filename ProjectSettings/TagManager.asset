@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Laser
   - Hook
+  - Slider
   layers:
   - Default
   - TransparentFX

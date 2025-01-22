@@ -50,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
     float flipped = 1.5f;
 
     GameObject hookObject;
+    GameObject sliderObject;
 
     DistanceJoint2D dj;
 
@@ -136,6 +137,8 @@ public class PlayerMovement : MonoBehaviour
         JumpAnimator();
 
         ClimbUp();
+
+        GrabSlider();
     }
 
     void BasicMovement()
@@ -264,7 +267,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Slide()
     {
-        if (Input.GetKey(KeyCode.DownArrow) && !GameManager.grabbingLedge)
+        if (Input.GetKey(KeyCode.DownArrow) && !GameManager.grabbingSlider)
         {
             capColl.enabled = false;
             cirColl.enabled = true;
@@ -286,15 +289,6 @@ public class PlayerMovement : MonoBehaviour
             capColl.enabled = true;
             cirColl.enabled = false;
             animator.SetBool("Slide", false);
-        }
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        // Check if the player collided with the laser
-        if (collision.gameObject.CompareTag("Laser"))
-        {
-            GameManager.isDead = true; // Trigger player death  
         }
     }
 
@@ -329,16 +323,6 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("Hang", true);
                 isGrabbing = true;
             }
-
-            //if (hookObject.transform.position.y < 2f && hookObject != null)
-            //{
-            //    capColl.enabled = false;
-            //    cirColl.enabled = false;
-            //    boxColl.enabled = true;
-            //    animator.SetBool("Slide", true);
-            //    rb.linearVelocityX = 15f * (flipped / Mathf.Abs(flipped));
-            //    StartCoroutine("SlideUnder");
-            //}
         }
     }
 
@@ -352,7 +336,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("Hang", false);
                 animator.SetBool("Climb", true);
                 dj.enabled = false;
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, 15f);
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, 13f);
                 isGrabbing = false;
             }
 
@@ -365,6 +349,25 @@ public class PlayerMovement : MonoBehaviour
 
         }
     }
+
+    void GrabSlider()
+    {
+        if (GameManager.isNearSlider && GameManager.grabbingSlider)
+        {
+            sliderObject = GameObject.Find(GameManager.slider);
+
+            if (sliderObject != null)
+            {
+                capColl.enabled = false;
+                cirColl.enabled = false;
+                boxColl.enabled = true;
+                animator.SetBool("Slide", true);
+                rb.linearVelocityX = 15f * (flipped / Mathf.Abs(flipped));
+                StartCoroutine("SlideUnder");
+            }
+        }
+    }
+
 
     IEnumerator SlideUnder()
     {
