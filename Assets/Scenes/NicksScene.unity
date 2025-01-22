@@ -2622,10 +2622,6 @@ PrefabInstance:
       propertyPath: artifact
       value: 
       objectReference: {fileID: 1761298838}
-    - target: {fileID: 4717952035551495144, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
-      propertyPath: background
-      value: 
-      objectReference: {fileID: 903917685}
     - target: {fileID: 5932010599617776808, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
       propertyPath: m_Name
       value: Player (1) Variant
@@ -2670,9 +2666,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8297262950224361174, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
-    - {fileID: 3892516520431517543, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
