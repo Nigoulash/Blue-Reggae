@@ -22,8 +22,8 @@ public class LedgeGrabber : MonoBehaviour
             if (Input.GetKey(KeyCode.G))
             {
                 GameManager.grabbingLedge = true;
-                GameManager.hookDestination = other.transform.position;
-                Debug.Log(GameManager.hookDestination);
+                GameManager.hook = other.gameObject.name;
+                Debug.Log(GameManager.hook);
             }
             else
             {
