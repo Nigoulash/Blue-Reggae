@@ -162,4 +162,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5932010599617776808, guid: 3f75a98f232f3814c9e0f194e4b6a723, type: 3}
-  respawnPoint: {fileID: 548527266634619621, guid: 48fe7b55b6627154099f763b55767f23, type: 3}
+  respawnPoint: {fileID: 1410684807343740227, guid: 62dec715b2ebfdb418395a4ecc4b9350, type: 3}
