@@ -52,9 +52,6 @@ public class PlayerMovement : MonoBehaviour
     GameObject hookObject;
 
     DistanceJoint2D dj;
-    LineRenderer lr;
-
-    [SerializeField] SpriteRenderer debugSR;
 
 
     //float flipX;
@@ -73,7 +70,6 @@ public class PlayerMovement : MonoBehaviour
         capColl = GetComponent<CapsuleCollider2D>();
         cirColl = GetComponent<CircleCollider2D>();
         boxColl = GetComponent<BoxCollider2D>();
-        lr = GetComponent<LineRenderer>();
 
         GameManager.startPosition = this.transform.position;
         dj = GetComponent<DistanceJoint2D>();
@@ -109,11 +105,12 @@ public class PlayerMovement : MonoBehaviour
             longJump = 0f;
             grav = 1.2f;
             rb.gravityScale = grav * 1.5f;
-            animator.SetBool("Jump", false);
+            animator.SetBool("Fall", true);
         }
         else
         {
             rb.gravityScale = grav;
+            animator.SetBool("Fall", false);
         }
 
 
@@ -139,8 +136,6 @@ public class PlayerMovement : MonoBehaviour
         JumpAnimator();
 
         ClimbUp();
-
-        RenderLine();
     }
 
     void BasicMovement()
@@ -325,7 +320,6 @@ public class PlayerMovement : MonoBehaviour
         if (GameManager.isNearLedge && GameManager.grabbingLedge)
         {
             hookObject = GameObject.Find(GameManager.hook);
-            debugSR.enabled = true;
 
             if (hookObject != null)
             {
@@ -346,24 +340,6 @@ public class PlayerMovement : MonoBehaviour
             //    StartCoroutine("SlideUnder");
             //}
         }
-        else
-        {
-            debugSR.enabled = false;
-        }
-    }
-
-    void RenderLine()
-    {
-        if (!isGrabbing && hookObject != null)
-        {
-            lr.SetPosition(0, transform.position);
-            lr.SetPosition(1, hookObject.transform.position);
-        }
-        else
-        {
-            lr.enabled = false;
-        }
-
     }
 
     void ClimbUp()
