@@ -95,74 +95,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!1 &2775221168283234148
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7142605337652142838}
-  - component: {fileID: 1994710040649334696}
-  m_Layer: 0
-  m_Name: GrabChild
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7142605337652142838
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2775221168283234148}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.39, y: 0.24, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7516477316030965528}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1994710040649334696
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2775221168283234148}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
 --- !u!1 &6146794171852866226
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3834505686627515383, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_Mass
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3834505686627515383, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_GravityScale
@@ -230,17 +162,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallChecker
       objectReference: {fileID: 0}
-    - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
-      propertyPath: _grabChild
-      value: 
-      objectReference: {fileID: 2775221168283234148}
+    - target: {fileID: 5421495996010773304, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421495996010773304, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421495996010773304, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -267578547
+      objectReference: {fileID: 0}
     - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: _wallChecker
       value: 
       objectReference: {fileID: 9111015567697516767}
     - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: _jumpStrength
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: _groundChecker
@@ -248,11 +188,11 @@ PrefabInstance:
       objectReference: {fileID: 2979953471894585964}
     - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: _origJumpSpeed
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: _origMoveSpeed
-      value: 14
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6516714285757513909, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: hookLayer.m_Bits
@@ -260,27 +200,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.38
+      value: -102.4
       objectReference: {fileID: 0}
     - target: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.02
+      value: 19.3
       objectReference: {fileID: 0}
     - target: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -349,9 +289,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1977431168675150811}
-    - targetCorrespondingSourceObject: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7142605337652142838}
     - targetCorrespondingSourceObject: {fileID: 6669001043838225714, guid: 3644133f47874e74ba561eb7d74bdc5b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3253367293131525220}
@@ -443,7 +380,7 @@ DistanceJoint2D:
   m_Anchor: {x: 1.13, y: 1.53}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 7.6514573
+  m_Distance: 0.1
   m_MaxDistanceOnly: 0
 --- !u!114 &4036688925716068244
 MonoBehaviour:

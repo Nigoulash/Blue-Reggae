@@ -9,12 +9,11 @@ public class PlayerMovement : MonoBehaviour
     float doubleMoveSpeed;
     private float direction = 0f;
 
-    [SerializeField] float _origJumpSpeed = 0.5f;
-    float realJumpSpeed;
     float doubleJumpSpeed;
 
-    public float longJump = 0f;
-    [SerializeField] int _jumpStrength = 2;
+    float longJump = 0f;
+    [SerializeField] float _origJumpSpeed = 15f;
+    float jumpStrength;
     bool isGrounded = false;
 
     [SerializeField] GameObject _groundChecker;
@@ -27,15 +26,16 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
     SpriteRenderer sr;
-    public Animator animator;
+    [SerializeField] Animator animator;
 
     CapsuleCollider2D capColl;
     CircleCollider2D cirColl;
     BoxCollider2D boxColl;
 
-    [SerializeField] GameObject _grabChild;
     [SerializeField] LayerMask hookLayer;
     bool isGrabbing = false;
+
+    [SerializeField] float ledgeJump = 20f;
 
     float coyoteTime = 0.2f;
     float coyoteTimeCounter;
@@ -92,13 +92,13 @@ public class PlayerMovement : MonoBehaviour
             realMoveSpeed = doubleMoveSpeed;
 
             doubleJumpSpeed = _origJumpSpeed * 1.5f;
-            realJumpSpeed = doubleMoveSpeed;
+            jumpStrength = doubleMoveSpeed;
         }
 
         else
         {
             realMoveSpeed = _origMoveSpeed;
-            realJumpSpeed = _origJumpSpeed;
+            jumpStrength = _origJumpSpeed;
         }
 
         if (rb.linearVelocityY < 0)
@@ -199,7 +199,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             {
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, _jumpStrength + longJump);
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpStrength + longJump);
 
                 jumpBufferCounter = 0f;
 
@@ -244,7 +244,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isOnWall && (!GameManager.grabbingLedge || !GameManager.grabbingSlider))
         {
-            if (rb.linearVelocityX == 14 * (flipped / Mathf.Abs(flipped)))
+            if (rb.linearVelocityX == realMoveSpeed * (flipped / Mathf.Abs(flipped)))
             {
                 rb.linearVelocityX = 0f;
             }
@@ -252,13 +252,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (isOnWall && Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow) && flipped > 0)
         {
-            rb.linearVelocity = new Vector2(_jumpStrength * (-flipped / Mathf.Abs(flipped)), _jumpStrength);
+            rb.linearVelocity = new Vector2(jumpStrength * (-flipped / Mathf.Abs(flipped)), jumpStrength);
 
         }
 
         if (isOnWall && Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.RightArrow) && flipped < 0 )
         {
-            rb.linearVelocity = new Vector2(_jumpStrength * (-flipped / Mathf.Abs(flipped)), _jumpStrength);
+            rb.linearVelocity = new Vector2(jumpStrength * (-flipped / Mathf.Abs(flipped)), jumpStrength);
         }
     }
 
@@ -288,7 +288,7 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 animator.SetBool("Slide", true);
-                rb.linearVelocityX = 14f * (flipped / Mathf.Abs(flipped));
+                rb.linearVelocityX = realMoveSpeed * (flipped / Mathf.Abs(flipped));
             }
         }
 
@@ -344,7 +344,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("Hang", false);
                 animator.SetBool("Climb", true);
                 dj.enabled = false;
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, 20f);
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, ledgeJump);
                 isGrabbing = false;
             }
 
@@ -370,7 +370,7 @@ public class PlayerMovement : MonoBehaviour
                 cirColl.enabled = false;
                 boxColl.enabled = true;
                 animator.SetBool("Super", true);
-                rb.linearVelocityX = 15f * (flipped / Mathf.Abs(flipped));
+                rb.linearVelocityX = realMoveSpeed * (flipped / Mathf.Abs(flipped) + 2f);
                 StartCoroutine("SlideUnder");
             }
         }
