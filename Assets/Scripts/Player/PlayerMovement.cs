@@ -370,7 +370,7 @@ public class PlayerMovement : MonoBehaviour
                 cirColl.enabled = false;
                 boxColl.enabled = true;
                 animator.SetBool("Super", true);
-                rb.linearVelocityX = realMoveSpeed * (flipped / Mathf.Abs(flipped) + 2f);
+                rb.linearVelocityX = realMoveSpeed * (flipped / Mathf.Abs(flipped) + 1f);
                 StartCoroutine("SlideUnder");
             }
         }
