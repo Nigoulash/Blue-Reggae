@@ -105,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
         {
             longJump = 0f;
             grav = 1.2f;
-            rb.gravityScale = grav * 1.5f;
+            rb.gravityScale = grav * 1.7f;
             animator.SetBool("Fall", true);
         }
         else
@@ -237,13 +237,13 @@ public class PlayerMovement : MonoBehaviour
 
     void WallJump()
     {
-        //if (isOnWall && !GameManager.grabbingLedge)
-        //{
-        //    if (rb.linearVelocityX == 0)
-        //    {
-        //        rb.linearVelocityY = -grav;
-        //    }
-        //}
+        if (isOnWall && (!GameManager.grabbingLedge || !GameManager.grabbingSlider))
+        {
+            if (rb.linearVelocityX == 14 * (flipped / Mathf.Abs(flipped)))
+            {
+                rb.linearVelocityX = 0f;
+            }
+        }
 
         if (isOnWall && Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow) && flipped > 0)
         {
@@ -283,7 +283,7 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 animator.SetBool("Slide", true);
-                rb.linearVelocityX = 10f * (flipped / Mathf.Abs(flipped));
+                rb.linearVelocityX = 14f * (flipped / Mathf.Abs(flipped));
             }
         }
 
