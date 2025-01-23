@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: 7570c160feb9be94fbeda1cdb34cb5fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2863299128681931991
+    second: Flaga_animation_spritesheet_0
+  - first:
+      213: -8197706996924836312
+    second: Flaga_animation_spritesheet_1
+  - first:
+      213: 126925001594993307
+    second: Flaga_animation_spritesheet_2
+  - first:
+      213: -7413365504153942663
+    second: Flaga_animation_spritesheet_3
+  - first:
+      213: 7685809581515112612
+    second: Flaga_animation_spritesheet_4
+  - first:
+      213: -8753160122288390658
+    second: Flaga_animation_spritesheet_5
+  - first:
+      213: 2623936389780040987
+    second: Flaga_animation_spritesheet_6
+  - first:
+      213: -1406068511438267916
+    second: Flaga_animation_spritesheet_7
+  - first:
+      213: 9213685737788765974
+    second: Flaga_animation_spritesheet_8
+  - first:
+      213: -5988290071072299372
+    second: Flaga_animation_spritesheet_9
+  - first:
+      213: -3267847368032736044
+    second: Flaga_animation_spritesheet_10
+  - first:
+      213: 2031524396484625945
+    second: Flaga_animation_spritesheet_11
+  - first:
+      213: -1777329817812714684
+    second: Flaga_animation_spritesheet_12
+  - first:
+      213: 4868730812648275870
+    second: Flaga_animation_spritesheet_13
+  - first:
+      213: -9207037936830965981
+    second: Flaga_animation_spritesheet_14
+  - first:
+      213: -7274749199271899220
+    second: Flaga_animation_spritesheet_15
+  - first:
+      213: -4349497191688396326
+    second: Flaga_animation_spritesheet_16
+  - first:
+      213: 2963928461909582473
+    second: Flaga_animation_spritesheet_17
+  - first:
+      213: -7306829086389750400
+    second: Flaga_animation_spritesheet_18
+  - first:
+      213: -7844672355149502178
+    second: Flaga_animation_spritesheet_19
+  - first:
+      213: -9088136366145836877
+    second: Flaga_animation_spritesheet_20
+  - first:
+      213: -1930053119667075032
+    second: Flaga_animation_spritesheet_21
+  - first:
+      213: 1746227891619693098
+    second: Flaga_animation_spritesheet_22
+  - first:
+      213: 3270335342844871304
+    second: Flaga_animation_spritesheet_23
+  - first:
+      213: 3316521794435465052
+    second: Flaga_animation_spritesheet_24
+  - first:
+      213: 7923515229811014313
+    second: Flaga_animation_spritesheet_25
+  - first:
+      213: -6315802944211108830
+    second: Flaga_animation_spritesheet_26
+  - first:
+      213: -7438356927477920735
+    second: Flaga_animation_spritesheet_27
+  - first:
+      213: -5809230718303932729
+    second: Flaga_animation_spritesheet_28
+  - first:
+      213: -5774675042010483188
+    second: Flaga_animation_spritesheet_29
+  - first:
+      213: 369092496135746022
+    second: Flaga_animation_spritesheet_30
+  - first:
+      213: 963092644588812585
+    second: Flaga_animation_spritesheet_31
+  - first:
+      213: -224235348064395368
+    second: Flaga_animation_spritesheet_32
+  - first:
+      213: -6305340747001629663
+    second: Flaga_animation_spritesheet_33
+  - first:
+      213: 8020201165280241093
+    second: Flaga_animation_spritesheet_34
+  - first:
+      213: 1296039425436346125
+    second: Flaga_animation_spritesheet_35
+  - first:
+      213: -5359263357032334888
+    second: Flaga_animation_spritesheet_36
+  - first:
+      213: 6973825285502414913
+    second: Flaga_animation_spritesheet_37
+  - first:
+      213: -739367654933394102
+    second: Flaga_animation_spritesheet_38
+  - first:
+      213: -6006498440900519463
+    second: Flaga_animation_spritesheet_39
+  - first:
+      213: 2893405790915593450
+    second: Flaga_animation_spritesheet_40
+  - first:
+      213: -555787741827807939
+    second: Flaga_animation_spritesheet_41
+  - first:
+      213: 6617352253886772804
+    second: Flaga_animation_spritesheet_42
+  - first:
+      213: -7943835246913265572
+    second: Flaga_animation_spritesheet_43
+  - first:
+      213: 5104326159431575133
+    second: Flaga_animation_spritesheet_44
+  - first:
+      213: -8804613565249491248
+    second: Flaga_animation_spritesheet_45
+  - first:
+      213: 3107214090344704580
+    second: Flaga_animation_spritesheet_46
+  - first:
+      213: 2044577300636104899
+    second: Flaga_animation_spritesheet_47
+  - first:
+      213: 4910450748283523751
+    second: Flaga_animation_spritesheet_48
+  - first:
+      213: 5647119134917822647
+    second: Flaga_animation_spritesheet_49
+  - first:
+      213: -2782588101186309502
+    second: Flaga_animation_spritesheet_50
+  - first:
+      213: 390306467802535206
+    second: Flaga_animation_spritesheet_51
+  - first:
+      213: 3360717852569259789
+    second: Flaga_animation_spritesheet_52
+  - first:
+      213: 6237950564395548862
+    second: Flaga_animation_spritesheet_53
+  - first:
+      213: -3704398166061307451
+    second: Flaga_animation_spritesheet_54
+  - first:
+      213: -7552854223369317266
+    second: Flaga_animation_spritesheet_55
+  - first:
+      213: -8686440474546284515
+    second: Flaga_animation_spritesheet_56
+  - first:
+      213: 8504820339816763428
+    second: Flaga_animation_spritesheet_57
+  - first:
+      213: -3960220112621172551
+    second: Flaga_animation_spritesheet_58
+  - first:
+      213: 493813945772874012
+    second: Flaga_animation_spritesheet_59
+  - first:
+      213: 6939034602974455311
+    second: Flaga_animation_spritesheet_60
+  - first:
+      213: 1112674450739995907
+    second: Flaga_animation_spritesheet_61
+  - first:
+      213: 4722767185384625999
+    second: Flaga_animation_spritesheet_62
+  - first:
+      213: 29269954569588574
+    second: Flaga_animation_spritesheet_63
+  - first:
+      213: 3043503334574731117
+    second: Flaga_animation_spritesheet_64
+  - first:
+      213: -7424827065621176875
+    second: Flaga_animation_spritesheet_65
+  - first:
+      213: 6094424826506813586
+    second: Flaga_animation_spritesheet_66
+  - first:
+      213: 7584359794968822774
+    second: Flaga_animation_spritesheet_67
+  - first:
+      213: -2924418126448775567
+    second: Flaga_animation_spritesheet_68
+  - first:
+      213: 1925355129916756420
+    second: Flaga_animation_spritesheet_69
+  - first:
+      213: 6111673302861741823
+    second: Flaga_animation_spritesheet_70
+  - first:
+      213: -2765134959065021407
+    second: Flaga_animation_spritesheet_71
+  - first:
+      213: -4660380412160738583
+    second: Flaga_animation_spritesheet_72
+  - first:
+      213: 9016385619484825407
+    second: Flaga_animation_spritesheet_73
+  - first:
+      213: 1489923710274351624
+    second: Flaga_animation_spritesheet_74
+  - first:
+      213: -6471556602500516826
+    second: Flaga_animation_spritesheet_75
+  - first:
+      213: 8475623496520818723
+    second: Flaga_animation_spritesheet_76
+  - first:
+      213: -5651042574556027276
+    second: Flaga_animation_spritesheet_77
+  - first:
+      213: -1753031010611845672
+    second: Flaga_animation_spritesheet_78
+  - first:
+      213: 5978818684678254104
+    second: Flaga_animation_spritesheet_79
+  - first:
+      213: -3171573520220400908
+    second: Flaga_animation_spritesheet_80
+  - first:
+      213: -513103534047299468
+    second: Flaga_animation_spritesheet_81
+  - first:
+      213: -1233517730188400859
+    second: Flaga_animation_spritesheet_82
+  - first:
+      213: 5928992655999482389
+    second: Flaga_animation_spritesheet_83
+  - first:
+      213: 6644789172047001123
+    second: Flaga_animation_spritesheet_84
+  - first:
+      213: 6719408587277778758
+    second: Flaga_animation_spritesheet_85
+  - first:
+      213: -4534573778755960486
+    second: Flaga_animation_spritesheet_86
+  - first:
+      213: 5016202742417013400
+    second: Flaga_animation_spritesheet_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4a5ca136b7cb720800000000000000
+      internalID: 2863299128681931991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8269f8b6be4eb3e80800000000000000
+      internalID: -8197706996924836312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a7f21dd9de2c100800000000000000
+      internalID: 126925001594993307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97505c60a5f6e1990800000000000000
+      internalID: -7413365504153942663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0808dd71b79aa60800000000000000
+      internalID: 7685809581515112612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d6f0a8e381a6420800000000000000
+      internalID: 2623936389780040987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496acbd58e155eca0800000000000000
+      internalID: -5988290071072299372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b309882f7a557e0800000000000000
+      internalID: -1777329817812714684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf47538526ea0b90800000000000000
+      internalID: -7274749199271899220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0853f3fb8ade89a90800000000000000
+      internalID: -7306829086389750400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a220fd8f309db3810800000000000000
+      internalID: 1746227891619693098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ccc19d8c5a5c890800000000000000
+      internalID: -7438356927477920735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124fb2b6ffdee78a0800000000000000
+      internalID: -6305340747001629663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9df26ed71a4aca0800000000000000
+      internalID: -6006498440900519463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aa510a0ca0f1b20800000000000000
+      internalID: 3107214090344704580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb08e3dfcf6a19650800000000000000
+      internalID: 6237950564395548862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c191de6da216ad600800000000000000
+      internalID: 493813945772874012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f2b0a5822bc3a20800000000000000
+      internalID: 3043503334574731117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c11a292a4c38ba10800000000000000
+      internalID: 1925355129916756420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802b55578b54da410800000000000000
+      internalID: 1489923710274351624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5ac34759bfba7e0800000000000000
+      internalID: -1753031010611845672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478fc18ed0711e8f0800000000000000
+      internalID: -513103534047299468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326393fdb88073c50800000000000000
+      internalID: 6644789172047001123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5143756c25f111c0800000000000000
+      internalID: -4534573778755960486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flaga_animation_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 0
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a3b1731d12d9540800000000000000
+      internalID: 5016202742417013400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 39abac464245e3a4baf8ef5b74d7792d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flaga_animation_spritesheet_88: -206458054
+      Flaga_animation_spritesheet_89: 1658587389
+      Flaga_animation_spritesheet_90: -1205979519
+      Flaga_animation_spritesheet_91: -497202840
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
