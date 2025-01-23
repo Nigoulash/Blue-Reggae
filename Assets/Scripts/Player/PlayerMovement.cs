@@ -59,8 +59,6 @@ public class PlayerMovement : MonoBehaviour
 
     //bool isJumping = false;
 
-    //bool canMove;
-
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -74,6 +72,8 @@ public class PlayerMovement : MonoBehaviour
 
         GameManager.startPosition = this.transform.position;
         dj = GetComponent<DistanceJoint2D>();
+
+        GameManager.canMove = true;
     }
 
     // Update is called once per frame
@@ -120,30 +120,31 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        //if (canMove)
-
-        Flip();
-
-        BasicMovement();
-
-        if (!isGrabbing)
+        if (GameManager.canMove)
         {
-            Jump();
+            Flip();
+
+            BasicMovement();
+
+            if (!isGrabbing)
+            {
+                Jump();
+            }
+
+            Slide();
+
+            OutOfBounds();
+
+            WallJump();
+
+            GrabLedge();
+
+            JumpAnimator();
+
+            ClimbUp();
+
+            GrabSlider();
         }
-
-        Slide();
-
-        OutOfBounds();
-
-        WallJump();
-
-        GrabLedge();
-
-        JumpAnimator();
-
-        ClimbUp();
-
-        GrabSlider();
     }
 
     void BasicMovement()

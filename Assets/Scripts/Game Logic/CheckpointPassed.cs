@@ -16,7 +16,10 @@ public class CheckpointPassed : MonoBehaviour
         if (transform.position.x < player.position.x)
         {
             animator.SetBool("Passed", true);
-            GameManager.startPosition = new Vector2(transform.position.x + 3f, transform.position.y + 5f);
+            if (transform.position.x > GameManager.startPosition.x)
+            {
+                GameManager.startPosition = new Vector2(transform.position.x + 3f, transform.position.y + 5f);
+            }
         }
 
         else

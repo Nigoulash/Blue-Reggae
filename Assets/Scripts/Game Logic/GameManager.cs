@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     public static Vector2 startPosition;
     public static bool artifactGrabbed = false;
 
+    public static bool canMove;
+
 
 
     void Update()

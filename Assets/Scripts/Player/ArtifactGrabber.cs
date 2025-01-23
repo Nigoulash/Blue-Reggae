@@ -6,10 +6,13 @@ public class ArtifactGrabber : MonoBehaviour
     [SerializeField] LayerMask artifactMask;
     bool isNearArtifact = false;
     [SerializeField] GameObject artifact;
+    [SerializeField] GameObject overlay;
+    [SerializeField] GameObject alarmText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        overlay.SetActive(false);
+        alarmText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -21,6 +24,8 @@ public class ArtifactGrabber : MonoBehaviour
         {
             Object.Destroy(artifact);
             GameManager.artifactGrabbed = true;
+            overlay.SetActive(true);
+            alarmText.SetActive(true);
         }
 
     }

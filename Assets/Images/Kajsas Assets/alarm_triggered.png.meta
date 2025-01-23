@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 938eff3681a2b2c4f84e55f6ee432935
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 329304918341188275
+    second: alarm_triggered_0
+  - first:
+      213: -3842732063239359058
+    second: alarm_triggered_1
+  - first:
+      213: -3055166441846296194
+    second: alarm_triggered_2
+  - first:
+      213: 1060087345699578777
+    second: alarm_triggered_3
+  - first:
+      213: 7990541612552934871
+    second: alarm_triggered_4
+  - first:
+      213: -278086325817491922
+    second: alarm_triggered_5
+  - first:
+      213: -7234221455352390991
+    second: alarm_triggered_6
+  - first:
+      213: 7403996736646620902
+    second: alarm_triggered_7
+  - first:
+      213: -3363924454137791575
+    second: alarm_triggered_8
+  - first:
+      213: 5752009991010509323
+    second: alarm_triggered_9
+  - first:
+      213: -5132300089562917194
+    second: alarm_triggered_10
+  - first:
+      213: -6831042154333112624
+    second: alarm_triggered_11
+  - first:
+      213: -7716684646169876904
+    second: alarm_triggered_12
+  - first:
+      213: -8200806499138220827
+    second: alarm_triggered_13
+  - first:
+      213: 6853696957269354009
+    second: alarm_triggered_14
+  - first:
+      213: 7785938522207366500
+    second: alarm_triggered_15
+  - first:
+      213: 5214355270225124777
+    second: alarm_triggered_16
+  - first:
+      213: 4589388004211079759
+    second: alarm_triggered_17
+  - first:
+      213: -7495533095007282838
+    second: alarm_triggered_18
+  - first:
+      213: -8956920851743933903
+    second: alarm_triggered_19
+  - first:
+      213: -7456325593210932992
+    second: alarm_triggered_20
+  - first:
+      213: 5238126743120420264
+    second: alarm_triggered_21
+  - first:
+      213: -65129282703668042
+    second: alarm_triggered_22
+  - first:
+      213: -4330072988793957690
+    second: alarm_triggered_23
+  - first:
+      213: -5885363142430458228
+    second: alarm_triggered_24
+  - first:
+      213: -8111872926901405533
+    second: alarm_triggered_25
+  - first:
+      213: 586046890405444286
+    second: alarm_triggered_26
+  - first:
+      213: 4266982024457955756
+    second: alarm_triggered_27
+  - first:
+      213: 8112930084692097164
+    second: alarm_triggered_28
+  - first:
+      213: 9181716598333428326
+    second: alarm_triggered_29
+  - first:
+      213: 4766814936420926077
+    second: alarm_triggered_30
+  - first:
+      213: -2950456709349316109
+    second: alarm_triggered_31
+  - first:
+      213: 6717656823183238691
+    second: alarm_triggered_32
+  - first:
+      213: -8292582544725877879
+    second: alarm_triggered_33
+  - first:
+      213: 2245394452249018396
+    second: alarm_triggered_34
+  - first:
+      213: 7016833193633135253
+    second: alarm_triggered_35
+  - first:
+      213: -3692505295949001485
+    second: alarm_triggered_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alarm_triggered_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 153
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baf388141de19400800000000000000
+      internalID: 329304918341188275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 152
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea53d935c8fdbaac0800000000000000
+      internalID: -3842732063239359058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 152
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71be00ee4ed995d0800000000000000
+      internalID: -3055166441846296194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_3
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 209
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9936f4703df26be00800000000000000
+      internalID: 1060087345699578777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_4
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 152
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5d13bc24b14ee60800000000000000
+      internalID: 7990541612552934871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_5
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 173
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e31c4c5f9042cf0800000000000000
+      internalID: -278086325817491922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 152
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba16373ae1ea9b90800000000000000
+      internalID: -7234221455352390991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 153
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e629fdcdc740c660800000000000000
+      internalID: 7403996736646620902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 153
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abfdd32880f051d0800000000000000
+      internalID: -3363924454137791575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 153
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02eda28c9e33df40800000000000000
+      internalID: 5752009991010509323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b695e8b24866c8b0800000000000000
+      internalID: -5132300089562917194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_11
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 131
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d671416a534331a0800000000000000
+      internalID: -6831042154333112624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 131
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8566555f234d8e490800000000000000
+      internalID: -7716684646169876904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_13
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 152
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecc62350f1e03e80800000000000000
+      internalID: -8200806499138220827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_14
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 153
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9162738f1193d1f50800000000000000
+      internalID: 6853696957269354009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_15
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 152
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d233395d53d0c60800000000000000
+      internalID: 7785938522207366500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_16
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad547ecd7c1d5840800000000000000
+      internalID: 5214355270225124777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 49
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ab07ff218c0bf30800000000000000
+      internalID: 4589388004211079759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_18
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 41
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6918e5fc548af790800000000000000
+      internalID: -7495533095007282838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 41
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a738ee0ff92b380800000000000000
+      internalID: -8956920851743933903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 42
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0013207d06fc58890800000000000000
+      internalID: -7456325593210932992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_21
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 41
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad9a24258091b840800000000000000
+      internalID: 5238126743120420264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_22
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 41
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcc8ff234d981ff0800000000000000
+      internalID: -65129282703668042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_23
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 42
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c21c63fe8d78e3c0800000000000000
+      internalID: -4330072988793957690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 84
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e7149676df25ea0800000000000000
+      internalID: -5885363142430458228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_25
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 41
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8fee03d86dc6f80800000000000000
+      internalID: -8111872926901405533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_26
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 57
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebab654ba8e022800800000000000000
+      internalID: 586046890405444286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_27
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 25
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca92bc63b8d573b30800000000000000
+      internalID: 4266982024457955756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 41
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88f6a98deae69070800000000000000
+      internalID: 8112930084692097164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_29
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 41
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662d8ff69920c6f70800000000000000
+      internalID: 9181716598333428326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_30
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 41
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d724563dde0272240800000000000000
+      internalID: 4766814936420926077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_31
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 41
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9e01a414fdd07d0800000000000000
+      internalID: -2950456709349316109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_32
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 41
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326e0dcf949e93d50800000000000000
+      internalID: 6717656823183238691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_33
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 41
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b520f8c14daec80800000000000000
+      internalID: -8292582544725877879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_34
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 42
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c108fe29b5e392f10800000000000000
+      internalID: 2245394452249018396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_35
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 42
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a3ca2ec9cc06160800000000000000
+      internalID: 7016833193633135253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alarm_triggered_36
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 41
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc06bf3ff591ccc0800000000000000
+      internalID: -3692505295949001485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      alarm_triggered_0: 329304918341188275
+      alarm_triggered_1: -3842732063239359058
+      alarm_triggered_10: -5132300089562917194
+      alarm_triggered_11: -6831042154333112624
+      alarm_triggered_12: -7716684646169876904
+      alarm_triggered_13: -8200806499138220827
+      alarm_triggered_14: 6853696957269354009
+      alarm_triggered_15: 7785938522207366500
+      alarm_triggered_16: 5214355270225124777
+      alarm_triggered_17: 4589388004211079759
+      alarm_triggered_18: -7495533095007282838
+      alarm_triggered_19: -8956920851743933903
+      alarm_triggered_2: -3055166441846296194
+      alarm_triggered_20: -7456325593210932992
+      alarm_triggered_21: 5238126743120420264
+      alarm_triggered_22: -65129282703668042
+      alarm_triggered_23: -4330072988793957690
+      alarm_triggered_24: -5885363142430458228
+      alarm_triggered_25: -8111872926901405533
+      alarm_triggered_26: 586046890405444286
+      alarm_triggered_27: 4266982024457955756
+      alarm_triggered_28: 8112930084692097164
+      alarm_triggered_29: 9181716598333428326
+      alarm_triggered_3: 1060087345699578777
+      alarm_triggered_30: 4766814936420926077
+      alarm_triggered_31: -2950456709349316109
+      alarm_triggered_32: 6717656823183238691
+      alarm_triggered_33: -8292582544725877879
+      alarm_triggered_34: 2245394452249018396
+      alarm_triggered_35: 7016833193633135253
+      alarm_triggered_36: -3692505295949001485
+      alarm_triggered_4: 7990541612552934871
+      alarm_triggered_5: -278086325817491922
+      alarm_triggered_6: -7234221455352390991
+      alarm_triggered_7: 7403996736646620902
+      alarm_triggered_8: -3363924454137791575
+      alarm_triggered_9: 5752009991010509323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
