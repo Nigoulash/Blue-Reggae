@@ -16,16 +16,13 @@ public class GameManager : MonoBehaviour
     public static Vector2 startPosition;
     public static bool artifactGrabbed = false;
 
-    [SerializeField] GameObject background;
-
 
 
     void Update()
     {
-        if (artifactGrabbed)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            background.SetActive(true);
+            isDead = true;
         }
-
     }
 }
