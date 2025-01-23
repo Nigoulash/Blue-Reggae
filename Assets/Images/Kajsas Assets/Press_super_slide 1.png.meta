@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 3db3a14480792f24c903328d41cb2017
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3397203448044341421
+    second: Press_super_slide 1_0
+  - first:
+      213: -2268450519297337934
+    second: Press_super_slide 1_1
+  - first:
+      213: 2917078894788099648
+    second: Press_super_slide 1_2
+  - first:
+      213: 4898381596222508295
+    second: Press_super_slide 1_3
+  - first:
+      213: 5927765281186542888
+    second: Press_super_slide 1_4
+  - first:
+      213: -2453150124641686309
+    second: Press_super_slide 1_5
+  - first:
+      213: -5668170406643550639
+    second: Press_super_slide 1_6
+  - first:
+      213: -9166504255234023465
+    second: Press_super_slide 1_7
+  - first:
+      213: 8283969695435487675
+    second: Press_super_slide 1_8
+  - first:
+      213: -8470547853064798657
+    second: Press_super_slide 1_9
+  - first:
+      213: -6090584665374876981
+    second: Press_super_slide 1_10
+  - first:
+      213: -5765241145316049685
+    second: Press_super_slide 1_11
+  - first:
+      213: 7938237906333754524
+    second: Press_super_slide 1_12
+  - first:
+      213: -8191672726403853283
+    second: Press_super_slide 1_13
+  - first:
+      213: -7162741848415649097
+    second: Press_super_slide 1_14
+  - first:
+      213: -1109635591149873644
+    second: Press_super_slide 1_15
+  - first:
+      213: 5630317501782096024
+    second: Press_super_slide 1_16
+  - first:
+      213: -4121915035272998136
+    second: Press_super_slide 1_17
+  - first:
+      213: -7385264852857024503
+    second: Press_super_slide 1_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Press_super_slide 1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 30
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357b5919675bad0d0800000000000000
+      internalID: -3397203448044341421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 30
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b55bbe7548d480e0800000000000000
+      internalID: -2268450519297337934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 30
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e32a9accb8b7820800000000000000
+      internalID: 2917078894788099648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 30
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d4729eb1c8af340800000000000000
+      internalID: 4898381596222508295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 30
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8257409dd17a34250800000000000000
+      internalID: 5927765281186542888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 30
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdce60085f8a4fdd0800000000000000
+      internalID: -2453150124641686309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 30
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15631a1eb0d9651b0800000000000000
+      internalID: -5668170406643550639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 30
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df5ba232f80ac080800000000000000
+      internalID: -9166504255234023465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 30
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb978823c8296f270800000000000000
+      internalID: 8283969695435487675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_9
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 20
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eff154b91927a80800000000000000
+      internalID: -8470547853064798657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_10
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 30
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca93e12485e97ba0800000000000000
+      internalID: -6090584665374876981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 30
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec78f059bfbdffa0800000000000000
+      internalID: -5765241145316049685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 30
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94609531594a2e60800000000000000
+      internalID: 7938237906333754524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_13
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 30
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1451728e05515e80800000000000000
+      internalID: -8191672726403853283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_14
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 58
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b24c5b1d34d89c90800000000000000
+      internalID: -7162741848415649097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_15
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 30
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41691671f48c990f0800000000000000
+      internalID: -1109635591149873644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_16
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 30
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898f26aefe7e22e40800000000000000
+      internalID: 5630317501782096024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 30
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80316304d140cc6c0800000000000000
+      internalID: -4121915035272998136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_super_slide 1_18
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 30
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9009741ceb4428990800000000000000
+      internalID: -7385264852857024503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Press_super_slide 1_0: -3397203448044341421
+      Press_super_slide 1_1: -2268450519297337934
+      Press_super_slide 1_10: -6090584665374876981
+      Press_super_slide 1_11: -5765241145316049685
+      Press_super_slide 1_12: 7938237906333754524
+      Press_super_slide 1_13: -8191672726403853283
+      Press_super_slide 1_14: -7162741848415649097
+      Press_super_slide 1_15: -1109635591149873644
+      Press_super_slide 1_16: 5630317501782096024
+      Press_super_slide 1_17: -4121915035272998136
+      Press_super_slide 1_18: -7385264852857024503
+      Press_super_slide 1_2: 2917078894788099648
+      Press_super_slide 1_3: 4898381596222508295
+      Press_super_slide 1_4: 5927765281186542888
+      Press_super_slide 1_5: -2453150124641686309
+      Press_super_slide 1_6: -5668170406643550639
+      Press_super_slide 1_7: -9166504255234023465
+      Press_super_slide 1_8: 8283969695435487675
+      Press_super_slide 1_9: -8470547853064798657
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 567ebd84b8b1a6d4eb017a67e6583258
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1647064999042482608
+    second: Grab_ledge_0
+  - first:
+      213: 5520736548827562031
+    second: Grab_ledge_1
+  - first:
+      213: -8124410090572397884
+    second: Grab_ledge_2
+  - first:
+      213: 5753257678364181023
+    second: Grab_ledge_3
+  - first:
+      213: -9178859189382003274
+    second: Grab_ledge_4
+  - first:
+      213: -4966971959272087175
+    second: Grab_ledge_5
+  - first:
+      213: -348684069158596981
+    second: Grab_ledge_6
+  - first:
+      213: 294977394832759252
+    second: Grab_ledge_7
+  - first:
+      213: -1949857947341542797
+    second: Grab_ledge_8
+  - first:
+      213: -6242496177899520850
+    second: Grab_ledge_9
+  - first:
+      213: 2475858914203174407
+    second: Grab_ledge_10
+  - first:
+      213: -8654907665052094531
+    second: Grab_ledge_11
+  - first:
+      213: 5403395998288954521
+    second: Grab_ledge_12
+  - first:
+      213: 819727549337626776
+    second: Grab_ledge_13
+  - first:
+      213: -3481334784188215952
+    second: Grab_ledge_14
+  - first:
+      213: 7312982262134989027
+    second: Grab_ledge_15
+  - first:
+      213: 4889682116059595898
+    second: Grab_ledge_16
+  - first:
+      213: 1643669180621680291
+    second: Grab_ledge_17
+  - first:
+      213: -43813719054557107
+    second: Grab_ledge_18
+  - first:
+      213: -459527697386226013
+    second: Grab_ledge_19
+  - first:
+      213: -2462043521227565420
+    second: Grab_ledge_20
+  - first:
+      213: 1821821358251311185
+    second: Grab_ledge_21
+  - first:
+      213: -3768205381465844554
+    second: Grab_ledge_22
+  - first:
+      213: -6477462258742399466
+    second: Grab_ledge_23
+  - first:
+      213: -8923251866629850824
+    second: Grab_ledge_24
+  - first:
+      213: 6626895514160338740
+    second: Grab_ledge_25
+  - first:
+      213: -7069536346145282820
+    second: Grab_ledge_26
+  - first:
+      213: -1566757714126772895
+    second: Grab_ledge_27
+  - first:
+      213: -805095924714423202
+    second: Grab_ledge_28
+  - first:
+      213: -8621274928211116402
+    second: Grab_ledge_29
+  - first:
+      213: -3166434390359553805
+    second: Grab_ledge_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grab_ledge_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 33
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b108edd3ec8bd610800000000000000
+      internalID: 1647064999042482608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20026b14a89d9c40800000000000000
+      internalID: 5520736548827562031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 23
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c245dd411c404f80800000000000000
+      internalID: -8124410090572397884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 33
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f128f2c506da7df40800000000000000
+      internalID: 5753257678364181023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 33
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b54e8de2342e9080800000000000000
+      internalID: -9178859189382003274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 33
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971e246b155c11bb0800000000000000
+      internalID: -4966971959272087175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 33
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ec6febfa9392bf0800000000000000
+      internalID: -348684069158596981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 33
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9d6c3b068f71400800000000000000
+      internalID: 294977394832759252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_8
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 33
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a2c361786b0f4e0800000000000000
+      internalID: -1949857947341542797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 23
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacb094ecc23e59a0800000000000000
+      internalID: -6242496177899520850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 33
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706801790940c5220800000000000000
+      internalID: 2475858914203174407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 33
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfa3c4955793e780800000000000000
+      internalID: -8654907665052094531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 33
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994c7c23808bcfa40800000000000000
+      internalID: 5403395998288954521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_13
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 33
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898eedeecd1406b00800000000000000
+      internalID: 819727549337626776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 61
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d004c6570dfafc0800000000000000
+      internalID: -3481334784188215952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_15
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 33
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0e94f1f9eec7560800000000000000
+      internalID: 7312982262134989027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_16
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 23
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7400585af3abd340800000000000000
+      internalID: 4889682116059595898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 23
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae6637496c7fc610800000000000000
+      internalID: 1643669180621680291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_18
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40e67797a7546ff0800000000000000
+      internalID: -43813719054557107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_19
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 23
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae37d07efd6f99f0800000000000000
+      internalID: -459527697386226013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_20
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 33
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496ddaf367015ddd0800000000000000
+      internalID: -2462043521227565420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_21
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 33
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1500ac67fd8684910800000000000000
+      internalID: 1821821358251311185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_22
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 33
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4530d9b25a4bbc0800000000000000
+      internalID: -3768205381465844554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_23
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 33
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ee8ad056e6b16a0800000000000000
+      internalID: -6477462258742399466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_24
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 33
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839bf2864bd3a2480800000000000000
+      internalID: -8923251866629850824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_25
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 38
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437182dfb5677fb50800000000000000
+      internalID: 6626895514160338740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_26
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 14
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf42c413626f3ed90800000000000000
+      internalID: -7069536346145282820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 23
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165ee58f822c14ae0800000000000000
+      internalID: -1566757714126772895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_28
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 33
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c3845a589b3d4f0800000000000000
+      internalID: -805095924714423202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_29
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 33
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ebef851241b5880800000000000000
+      internalID: -8621274928211116402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grab_ledge_30
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 33
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8c90ec2b09e04d0800000000000000
+      internalID: -3166434390359553805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grab_ledge_0: 1647064999042482608
+      Grab_ledge_1: 5520736548827562031
+      Grab_ledge_10: 2475858914203174407
+      Grab_ledge_11: -8654907665052094531
+      Grab_ledge_12: 5403395998288954521
+      Grab_ledge_13: 819727549337626776
+      Grab_ledge_14: -3481334784188215952
+      Grab_ledge_15: 7312982262134989027
+      Grab_ledge_16: 4889682116059595898
+      Grab_ledge_17: 1643669180621680291
+      Grab_ledge_18: -43813719054557107
+      Grab_ledge_19: -459527697386226013
+      Grab_ledge_2: -8124410090572397884
+      Grab_ledge_20: -2462043521227565420
+      Grab_ledge_21: 1821821358251311185
+      Grab_ledge_22: -3768205381465844554
+      Grab_ledge_23: -6477462258742399466
+      Grab_ledge_24: -8923251866629850824
+      Grab_ledge_25: 6626895514160338740
+      Grab_ledge_26: -7069536346145282820
+      Grab_ledge_27: -1566757714126772895
+      Grab_ledge_28: -805095924714423202
+      Grab_ledge_29: -8621274928211116402
+      Grab_ledge_3: 5753257678364181023
+      Grab_ledge_30: -3166434390359553805
+      Grab_ledge_4: -9178859189382003274
+      Grab_ledge_5: -4966971959272087175
+      Grab_ledge_6: -348684069158596981
+      Grab_ledge_7: 294977394832759252
+      Grab_ledge_8: -1949857947341542797
+      Grab_ledge_9: -6242496177899520850
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
