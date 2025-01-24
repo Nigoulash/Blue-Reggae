@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cebe121ffbfc4c6089fc69ccc7733f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 5
+  changeTime: 42
   sceneName: LinneJacobScene
 --- !u!4 &886251133
 Transform:
@@ -234,7 +234,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095239520}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7d4eed10cbf87a745ad0e00c219ebeb6, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 2135d196235e148b79c07dd4ad50d687, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 2074390723}
