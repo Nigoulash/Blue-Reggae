@@ -17,5 +17,10 @@ public class ChangeSceneOnTimer : MonoBehaviour
             SceneManager.LoadScene(sceneName);
 
         }
+
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

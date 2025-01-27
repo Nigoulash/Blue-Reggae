@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class ArtifactGrabber : MonoBehaviour
@@ -8,11 +9,13 @@ public class ArtifactGrabber : MonoBehaviour
     [SerializeField] GameObject artifact;
     [SerializeField] GameObject overlay;
     [SerializeField] GameObject alarmText;
+    [SerializeField] GameObject completed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         overlay.SetActive(false);
         alarmText.SetActive(false);
+        completed.SetActive(false);
     }
 
     // Update is called once per frame
@@ -26,7 +29,14 @@ public class ArtifactGrabber : MonoBehaviour
             GameManager.artifactGrabbed = true;
             overlay.SetActive(true);
             alarmText.SetActive(true);
+            StartCoroutine("Success");
         }
 
+    }
+    IEnumerator Success()
+    {
+        yield return new WaitForSeconds(2);
+        GameManager.canMove = false;
+        completed.SetActive(true);
     }
 }

@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: ac2b795caecb7864e8e439929de07a9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2385481970763716512
+    second: slutscreen_0
+  - first:
+      213: -3867703111209022033
+    second: slutscreen_1
+  - first:
+      213: -4525847254283690814
+    second: slutscreen_2
+  - first:
+      213: 1069224076305122569
+    second: slutscreen_3
+  - first:
+      213: 5956176654300032137
+    second: slutscreen_4
+  - first:
+      213: -1283425934762097315
+    second: slutscreen_5
+  - first:
+      213: -5646276011326946556
+    second: slutscreen_6
+  - first:
+      213: -1744308837326888307
+    second: slutscreen_7
+  - first:
+      213: 6330843307719816739
+    second: slutscreen_8
+  - first:
+      213: 5191643784362848317
+    second: slutscreen_9
+  - first:
+      213: -6380779168295401894
+    second: slutscreen_10
+  - first:
+      213: -2251105855172587012
+    second: slutscreen_11
+  - first:
+      213: -7046285090557440971
+    second: slutscreen_12
+  - first:
+      213: -6867117787691721228
+    second: slutscreen_13
+  - first:
+      213: -5239945212385751974
+    second: slutscreen_14
+  - first:
+      213: -4328127669638156191
+    second: slutscreen_15
+  - first:
+      213: 5386834609443491091
+    second: slutscreen_16
+  - first:
+      213: 5262000694326731245
+    second: slutscreen_17
+  - first:
+      213: 2853612205168106220
+    second: slutscreen_18
+  - first:
+      213: -8346147383120352371
+    second: slutscreen_19
+  - first:
+      213: -3739064822573441198
+    second: slutscreen_20
+  - first:
+      213: -8136399797172270591
+    second: slutscreen_21
+  - first:
+      213: 3278825568448068619
+    second: slutscreen_22
+  - first:
+      213: 3770736114042413214
+    second: slutscreen_23
+  - first:
+      213: -8664579636091320151
+    second: slutscreen_24
+  - first:
+      213: -7507574167828974684
+    second: slutscreen_25
+  - first:
+      213: 2856722862417608201
+    second: slutscreen_26
+  - first:
+      213: -2611114971469727848
+    second: slutscreen_27
+  - first:
+      213: -1476672723195883282
+    second: slutscreen_28
+  - first:
+      213: 3846492321325746194
+    second: slutscreen_29
+  - first:
+      213: -6877870740346699159
+    second: slutscreen_30
+  - first:
+      213: -7319217142663890733
+    second: slutscreen_31
+  - first:
+      213: 7319692501738998883
+    second: slutscreen_32
+  - first:
+      213: -3487700908657515090
+    second: slutscreen_33
+  - first:
+      213: 5835482253585204593
+    second: slutscreen_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slutscreen_0
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 594
+        width: 147
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7587da63fea1120800000000000000
+      internalID: 2385481970763716512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 594
+        width: 130
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad86b72388235ac0800000000000000
+      internalID: -3867703111209022033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 597
+        width: 121
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc5eb4b6e5f031c0800000000000000
+      internalID: -4525847254283690814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_3
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 532
+        width: 131
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9054675e1a5a6de00800000000000000
+      internalID: 1069224076305122569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_4
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 597
+        width: 149
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c27032c1798a250800000000000000
+      internalID: 5956176654300032137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_5
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 594
+        width: 148
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d554bf689ea503ee0800000000000000
+      internalID: -1283425934762097315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_6
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 594
+        width: 140
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4034c0902e564a1b0800000000000000
+      internalID: -5646276011326946556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_7
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 597
+        width: 123
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d826e8caa58fac7e0800000000000000
+      internalID: -1744308837326888307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_8
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 659
+        width: 31
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3267c45327cabd750800000000000000
+      internalID: 6330843307719816739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_9
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 594
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30ff4fe38c6c0840800000000000000
+      internalID: 5191643784362848317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 369
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a564a8b372be277a0800000000000000
+      internalID: -6380779168295401894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 368
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1d2aec62772c0e0800000000000000
+      internalID: -2251105855172587012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 368
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c413ffa01963e90800000000000000
+      internalID: -7046285090557440971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 369
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd5ed171c813b0a0800000000000000
+      internalID: -6867117787691721228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 368
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c0d3d7799f747b0800000000000000
+      internalID: -5239945212385751974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 369
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160bdacd0d66fe3c0800000000000000
+      internalID: -4328127669638156191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 368
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31dc8af5981e1ca40800000000000000
+      internalID: 5386834609443491091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_17
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 368
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1243190c1660940800000000000000
+      internalID: 5262000694326731245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_18
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 368
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea93c77e211a9720800000000000000
+      internalID: 2853612205168106220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 369
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b2e02cc278c2c80800000000000000
+      internalID: -8346147383120352371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_20
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 343
+        width: 56
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fd952ba5c2c1cc0800000000000000
+      internalID: -3739064822573441198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_21
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 368
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a8cf23e73b51f80800000000000000
+      internalID: -8136399797172270591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_22
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 368
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cb0d78b7ab08d20800000000000000
+      internalID: 3278825568448068619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_23
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 368
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e902c3b7488545430800000000000000
+      internalID: 3770736114042413214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_24
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 368
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a881b65aba31c780800000000000000
+      internalID: -8664579636091320151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_25
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 368
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3b7a9321dbfc790800000000000000
+      internalID: -7507574167828974684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_26
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 368
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e732cce4e15a720800000000000000
+      internalID: 2856722862417608201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_27
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 369
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897b7d984c473cbd0800000000000000
+      internalID: -2611114971469727848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_28
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 368
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee096646bfdc18be0800000000000000
+      internalID: -1476672723195883282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_29
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 368
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21883ebf26c716530800000000000000
+      internalID: 3846492321325746194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_30
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 368
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962059e8005ec80a0800000000000000
+      internalID: -6877870740346699159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_31
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 369
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8b191a9caec6a90800000000000000
+      internalID: -7319217142663890733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_32
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 368
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c4e378c85c49560800000000000000
+      internalID: 7319692501738998883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_33
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 395
+        width: 15
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea569a09082399fc0800000000000000
+      internalID: -3487700908657515090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slutscreen_34
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 368
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175ca02213ccbf050800000000000000
+      internalID: 5835482253585204593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slutscreen_0: 2385481970763716512
+      slutscreen_1: -3867703111209022033
+      slutscreen_10: -6380779168295401894
+      slutscreen_11: -2251105855172587012
+      slutscreen_12: -7046285090557440971
+      slutscreen_13: -6867117787691721228
+      slutscreen_14: -5239945212385751974
+      slutscreen_15: -4328127669638156191
+      slutscreen_16: 5386834609443491091
+      slutscreen_17: 5262000694326731245
+      slutscreen_18: 2853612205168106220
+      slutscreen_19: -8346147383120352371
+      slutscreen_2: -4525847254283690814
+      slutscreen_20: -3739064822573441198
+      slutscreen_21: -8136399797172270591
+      slutscreen_22: 3278825568448068619
+      slutscreen_23: 3770736114042413214
+      slutscreen_24: -8664579636091320151
+      slutscreen_25: -7507574167828974684
+      slutscreen_26: 2856722862417608201
+      slutscreen_27: -2611114971469727848
+      slutscreen_28: -1476672723195883282
+      slutscreen_29: 3846492321325746194
+      slutscreen_3: 1069224076305122569
+      slutscreen_30: -6877870740346699159
+      slutscreen_31: -7319217142663890733
+      slutscreen_32: 7319692501738998883
+      slutscreen_33: -3487700908657515090
+      slutscreen_34: 5835482253585204593
+      slutscreen_4: 5956176654300032137
+      slutscreen_5: -1283425934762097315
+      slutscreen_6: -5646276011326946556
+      slutscreen_7: -1744308837326888307
+      slutscreen_8: 6330843307719816739
+      slutscreen_9: 5191643784362848317
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
