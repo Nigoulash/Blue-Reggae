@@ -18,7 +18,7 @@ public class ChangeSceneOnTimer : MonoBehaviour
 
         }
 
-        if (Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene(sceneName);
         }
